@@ -1,0 +1,37 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:22px;min-height:0}
+.side{display:flex;flex-direction:column;gap:12px;justify-content:center}
+.note{font-size:17.5px;color:var(--ink-2);line-height:1.6;padding:13px 16px;background:var(--surface-2);border-radius:9px}
+.note b{color:var(--teal-mid)}
+.hl{padding:13px 16px;background:var(--teal-cream);border-radius:9px;font-size:17px;color:var(--ink);line-height:1.55}
+.hl b{color:var(--teal-mid)}
+.btn{align-self:flex-start;background:var(--teal-mid);color:#ffffff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn:hover{background:var(--teal-deep)}
+.cTable{flex:1;display:flex;flex-direction:column;gap:8px;min-height:0;justify-content:center}
+.cRow,.cRowSel{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 18px;border-radius:10px;border:1px solid var(--line);background:var(--surface-2)}
+.cName{font-size:18.5px;font-weight:500;color:var(--ink)}
+.cVal{font-family:var(--font-mono);font-size:17px;color:var(--teal-mid)}
+.cBarWrap{flex:1;margin:0 14px;height:10px;background:var(--bg);border-radius:5px;overflow:hidden;border:1px solid var(--line)}
+.cBar{height:100%;background:linear-gradient(90deg,#0e7d94,#088395);border-radius:5px}
+.formula{font-family:var(--font-mono);font-size:25.5px;color:var(--ink);text-align:center;padding:14px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;letter-spacing:.03em}
+.formula b{color:var(--teal-mid)}
+.ctrl{display:flex;align-items:center;gap:12px}
+.cLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.1em;color:var(--teal-mid);min-width:58px}
+.range{flex:1;accent-color:var(--teal-mid)}
+.cv{font-family:var(--font-mono);font-size:17px;color:var(--ink);min-width:74px;text-align:right}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip,.chipActive{font-family:var(--font-sans);font-size:15px;font-weight:600;border-radius:7px;padding:7px 11px;cursor:pointer;border:1px solid var(--line);transition:all .2s}
+.chip{background:var(--surface-2);color:var(--ink-2)}
+.chip:hover{border-color:var(--teal-soft);color:var(--ink)}
+.chipActive{background:var(--teal-mid);color:#ffffff;border-color:var(--teal-mid)}
+.result{padding:14px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;text-align:center}
+.qVal{font-family:var(--font-mono);font-size:29.5px;color:var(--teal-mid);font-weight:500}
+.cmpMain{flex:1;display:flex;flex-direction:column;gap:14px;min-height:0}
+.therms{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:16px;min-height:0;background:radial-gradient(circle at 50% 40%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:14px}
+.tWrap{display:flex;flex-direction:column;gap:6px;min-height:0}
+.tCap{text-align:center;font-family:var(--font-mono);font-size:14.5px;color:var(--ink-2);letter-spacing:.06em}
+.tViz{flex:1;min-height:0}
+.field{display:flex;flex-direction:column;gap:4px}
+.fLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.14em;color:var(--teal-mid)}
+.field p{font-size:17px;color:var(--ink-2);line-height:1.55}

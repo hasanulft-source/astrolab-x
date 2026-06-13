@@ -1,0 +1,30 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1.3fr 1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 45%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0;justify-content:center}
+.tabs{display:flex;gap:8px}
+.tab,.tabActive{flex:1;font-family:var(--font-sans);font-size:16px;font-weight:600;border-radius:8px;padding:9px 6px;cursor:pointer;border:1px solid var(--line);transition:all .2s;text-align:center}
+.tab{background:var(--surface-2);color:var(--ink-2)}
+.tab:hover{border-color:var(--teal-soft);color:var(--ink)}
+.tabActive{background:var(--teal-mid);color:#ffffff;border-color:var(--teal-mid)}
+.props{display:flex;flex-direction:column;gap:9px}
+.prop{display:flex;justify-content:space-between;gap:12px;padding:10px 14px;background:var(--surface-2);border:1px solid var(--line);border-radius:9px}
+.pK{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.1em;color:var(--teal-mid);align-self:center}
+.pV{font-size:17px;color:var(--ink);font-weight:500;text-align:right}
+.alasan{font-size:16.5px;color:var(--ink-2);line-height:1.55;padding:11px 14px;background:var(--teal-cream);border-radius:9px}
+.hookRow{flex:1;display:grid;grid-template-columns:1.1fr 1fr;gap:22px;min-height:0;align-items:center}
+.hookQ{font-size:19.5px;color:var(--ink);line-height:1.6}
+.hookQ b{color:var(--teal-mid)}
+.grid{flex:1;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:12px;min-height:0}
+.card,.cardOpen{display:flex;flex-direction:column;justify-content:center;gap:7px;padding:14px 16px;border-radius:12px;cursor:pointer;border:1px solid var(--line);background:var(--surface-2);transition:all .2s}
+.card:hover{border-color:var(--teal-soft)}
+.cardOpen{border-color:var(--teal-mid);background:var(--teal-cream)}
+.cardTeks{font-size:17px;font-weight:500;color:var(--ink);line-height:1.4}
+.cardHint{font-family:var(--font-mono);font-size:13px;color:var(--ink-3);letter-spacing:.08em}
+.cardW{font-size:16px;font-weight:600;color:var(--teal-mid)}
+.cardA{font-size:14.5px;color:var(--ink-2);line-height:1.45}
+.reflect{padding:15px 18px;background:var(--teal-cream);border-radius:11px;font-size:17px;color:var(--ink);line-height:1.55}
+.field{display:flex;flex-direction:column;gap:4px}
+.fLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.14em;color:var(--teal-mid)}
+.field p{font-size:17px;color:var(--ink-2);line-height:1.55}

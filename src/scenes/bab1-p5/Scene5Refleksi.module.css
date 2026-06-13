@@ -1,0 +1,16 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:24px;min-height:0;overflow:hidden}
+.quiz{display:flex;flex-direction:column;gap:9px;overflow:auto}
+.qCard{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:9px;cursor:pointer;transition:all .2s}
+.qCard:hover{border-color:var(--teal-soft)}
+.qName{font-size:17.5px;font-weight:500;color:var(--ink)}
+.qType{font-family:var(--font-mono);font-size:13.5px;font-weight:500;letter-spacing:.06em}
+.qHint{font-family:var(--font-mono);font-size:13px;color:var(--ink-3);letter-spacing:.1em}
+.side{display:flex;flex-direction:column;gap:14px;justify-content:center}
+.recap,.reflect{padding:15px 18px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;display:flex;flex-direction:column;gap:6px}
+.recapLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.16em;color:var(--teal-mid)}
+.recap p{font-size:17px;color:var(--ink-2);line-height:1.5}
+.recap b{font-weight:600}
+.reflect{background:var(--teal-cream)}
+.reflect p{font-size:17px;color:var(--ink);line-height:1.55}

@@ -1,0 +1,6 @@
+.wrap{display:flex;align-items:center;justify-content:center;height:100%;width:100%}
+.svg{height:100%;width:auto;max-width:100%;display:block}
+.sm .svg{max-height:210px}
+.md .svg{max-height:320px}
+.lg .svg{max-height:100%}
+.status{font-family:var(--font-mono);font-size:15px;font-weight:500;letter-spacing:.12em}

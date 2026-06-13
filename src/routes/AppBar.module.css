@@ -1,0 +1,7 @@
+.bar{background:var(--accent);color:#fff;height:62px;padding:0 24px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(13,107,122,.3)}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
+.mark{width:32px;height:32px;border-radius:8px;background:rgba(255,255,255,.2);display:grid;place-items:center}
+.brandText{display:flex;flex-direction:column;line-height:1.2}
+.brandName{font-size:13px;font-weight:700}
+.brandSub{font-size:10px;font-weight:500;opacity:.7}
+.right{display:flex;align-items:center;gap:12px}

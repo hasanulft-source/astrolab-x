@@ -1,0 +1,40 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1.2fr 1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 40%,#eceaf7 0%,#f8f9fd 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:18px;display:flex;align-items:center;justify-content:center}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0;justify-content:center}
+.btn{align-self:center;background:var(--teal-mid);color:#fff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn:hover{background:var(--teal-deep)}
+.reveal{font-size:17px;color:var(--ink);line-height:1.55;padding:14px 16px;background:var(--teal-cream);border-radius:10px}
+.reveal b{color:var(--teal-mid)}
+.solar{width:100%;max-width:360px;height:auto}
+.planetRow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:center}
+.sun{width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#fde08a,#f4b73d);flex-shrink:0}
+.planet{display:flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid transparent;border-radius:10px;background:transparent;cursor:pointer;transition:all .15s}
+.planet:hover{background:#fff}
+.pOn{background:#fff;border-color:var(--bab7-fg,#4a4fa0)}
+.pBall{display:inline-block;border-radius:50%;flex-shrink:0}
+.detail{background:var(--teal-cream);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.dName{font-size:21px;font-weight:700;color:var(--teal-deep);display:flex;align-items:center;gap:9px}
+.dJenis{font-family:var(--font-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--teal-mid);margin-top:-3px}
+.dCiri{font-size:16px;font-weight:600;color:var(--ink)}
+.dFakta{font-size:15px;color:var(--ink-2);line-height:1.55}
+.compare{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch}
+.col{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.colH{font-size:16px;font-weight:700;color:var(--teal-deep);text-align:center}
+.colChips{display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+.chip{font-size:14px;font-weight:600;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:8px;padding:6px 11px}
+.belt{display:flex;align-items:center;justify-content:center;width:54px;background:repeating-linear-gradient(45deg,#ece6d6,#ece6d6 4px,#f6f1e6 4px,#f6f1e6 8px);border-radius:10px;font-family:var(--font-mono);font-size:9.5px;text-align:center;color:#8a7a55;line-height:1.3;text-transform:uppercase;letter-spacing:.03em}
+.cmpTable{margin-top:14px;border:1px solid var(--line);border-radius:11px;overflow:hidden;background:var(--surface)}
+.cmpRow{display:grid;grid-template-columns:0.8fr 1fr 1fr;border-bottom:1px solid var(--line-soft)}
+.cmpRow:last-child{border-bottom:none}
+.cmpK{padding:10px 14px;font-family:var(--font-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3);border-right:1px solid var(--line-soft)}
+.cmpV{padding:10px 14px;font-size:14.5px;color:var(--ink);border-right:1px solid var(--line-soft)}
+.cmpV:last-child{border-right:none}
+.angGrid{display:grid;grid-template-columns:1fr 1fr;gap:9px;width:100%}
+.angCard{padding:13px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink-2);font-family:var(--font-sans);font-size:15px;font-weight:600;cursor:pointer;transition:all .15s}
+.angCard:hover{border-color:var(--teal-soft)}
+.on{background:var(--teal-mid);color:#fff;border-color:var(--teal-mid)}
+.exit{padding:14px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;font-size:15.5px;color:var(--ink-2);line-height:1.55}
+.exit b{color:var(--ink)}
+@media (max-width:880px){.main{grid-template-columns:1fr}}

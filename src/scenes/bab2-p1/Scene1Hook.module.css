@@ -1,0 +1,4 @@
+.question { font-size:36.5px; font-weight:500; color:var(--ink); line-height:1.28; max-width:640px; letter-spacing:-.018em; }
+.question em { color:var(--teal-deep); font-style:normal; font-weight:600; }
+.objects { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:2px 0; }
+@media (max-width:880px) { .question { font-size:27px; } .objects { gap:10px; } }

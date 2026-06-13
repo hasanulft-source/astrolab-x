@@ -1,0 +1,23 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.stageCol{flex:1;display:flex;flex-direction:column;gap:14px;min-height:0}
+.viz{flex:1;min-height:0;background:radial-gradient(circle at 50% 50%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:14px;display:flex;align-items:center}
+.controls{display:flex;align-items:center;gap:14px}
+.cLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.14em;color:var(--teal-mid)}
+.range{flex:1;accent-color:var(--teal-mid)}
+.readout{display:flex;gap:16px;align-items:center}
+.suhu{font-family:var(--font-mono);font-size:24.5px;color:var(--ink);min-width:78px;text-align:right}
+.zone{font-size:16px;color:var(--teal-mid);font-weight:600;min-width:150px}
+.main{flex:1;display:grid;grid-template-columns:1.3fr 1fr;gap:22px;min-height:0}
+.side{display:flex;flex-direction:column;gap:12px;justify-content:center}
+.note{font-size:17px;color:var(--ink-2);line-height:1.6;padding:13px 16px;background:var(--surface-2);border-left:2px solid var(--teal-mid);border-radius:9px}
+.note b{color:var(--teal-mid)}
+.hl{padding:13px 16px;background:var(--teal-cream);border-radius:9px;font-size:17px;color:var(--ink);line-height:1.55}
+.hl b{color:var(--teal-mid)}
+.twoViz{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:16px;min-height:0}
+.cVizWrap{display:flex;flex-direction:column;gap:8px;min-height:0}
+.cVizTitle{font-family:var(--font-mono);font-size:14.5px;letter-spacing:.08em;color:var(--ink-2);text-align:center}
+.cViz{flex:1;min-height:0;background:radial-gradient(circle at 50% 50%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center}
+.btn{background:var(--teal-deep);color:#fff;border:none;border-radius:9px;padding:10px 18px;font-family:var(--font-sans);font-size:16px;font-weight:600;cursor:pointer;transition:all .2s;align-self:flex-start}
+.btn:hover{background:var(--teal-mid);color:#ffffff}
+.reflect{padding:14px 18px;background:var(--surface-2);border-left:2px solid var(--teal-mid);border-radius:9px;font-size:16.5px;color:var(--ink-2);line-height:1.55}

@@ -1,0 +1,28 @@
+:root{
+  /* ── Astrolab — token asli (App.jsx) ── */
+  --accent:#0d6b7a; --accent-2:#0a525c; --accent-soft:#d8ebe9; --accent-tint:#eaf4f3;
+  --surface:#ffffff; --surface-alt:#f7f8fa; --bg:#f2f4f6;
+  --line:#e2e6ea; --line-soft:#edf0f3;
+  --ink:#1a1c1e; --ink-2:#3a3d42; --ink-3:#6b7280; --ink-4:#9ca3af;
+  --shadow-sm:0 1px 3px rgba(0,0,0,.07),0 1px 2px rgba(0,0,0,.04);
+  --shadow:0 4px 12px rgba(0,0,0,.08),0 1px 3px rgba(0,0,0,.05);
+  --r:12px; --r-sm:8px; --r-xs:5px; --hdr-h:62px;
+  --font:'Plus Jakarta Sans',system-ui,sans-serif; --mono:'DM Mono',monospace;
+
+  /* ── alias: biar canvas + chrome lama tetap jalan, ikut warna baru ── */
+  --teal-deep:var(--accent); --teal-mid:#0e7d90; --teal-soft:#7fb3b8; --teal-cream:var(--accent-tint); --teal-glow:var(--accent);
+  --surface-2:var(--surface-alt); --page:var(--bg);
+  --c-ink:var(--ink); --c-muted:var(--ink-3); --c-hint:var(--ink-4); --c-line:var(--line-soft);
+  --shadow-lg:var(--shadow);
+  --font-sans:var(--font); --font-mono:var(--mono);
+  --radius-sm:var(--r-xs); --radius-md:var(--r-sm); --radius-lg:var(--r); --radius-xl:var(--r); --radius-card:var(--r);
+  --bab1-bg:var(--accent-soft); --bab1-fg:var(--accent-2);
+  --bab2-bg:#e9eafb; --bab2-fg:#5a48c9;
+  --bab3-bg:#fbf1da; --bab3-fg:#9a6a10;
+  --bab4-bg:#e6f1fb; --bab4-fg:#256aa8;
+  --bab5-bg:#e3f3e7; --bab5-fg:#2f7d52;
+  --bab6-bg:#dff0ea; --bab6-fg:#1e7d5e;
+  --bab7-bg:#e9ebf8; --bab7-fg:#4a4fa0;
+  --ease:cubic-bezier(.4,0,.2,1);
+}
+body{font-weight:500;text-rendering:optimizeLegibility}

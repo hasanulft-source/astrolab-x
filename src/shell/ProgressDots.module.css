@@ -1,0 +1,3 @@
+.progress { margin-left:auto; display:flex; gap:6px; align-items:center; }
+.dot { width:8px; height:8px; border-radius:50%; background:var(--line); transition:all .3s var(--ease); }
+.active { background:var(--teal-mid); width:24px; border-radius:4px; }

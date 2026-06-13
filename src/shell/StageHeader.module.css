@@ -1,0 +1,4 @@
+.head { display:flex; align-items:baseline; gap:16px; }
+.num { font-family:var(--font); font-size:11px; letter-spacing:.18em; color:var(--teal-mid); font-weight:500; }
+.stage { font-size:13px; color:var(--ink-2); letter-spacing:.01em; }
+.time { margin-left:auto; font-family:var(--font); font-size:11px; color:var(--ink-3); letter-spacing:.04em; }

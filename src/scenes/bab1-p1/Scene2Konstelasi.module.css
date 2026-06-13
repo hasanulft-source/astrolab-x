@@ -1,0 +1,9 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1.5fr 1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 45%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden}
+.panel{display:flex;flex-direction:column;gap:10px;min-width:0;justify-content:center}
+.pIcon{font-size:46.5px;line-height:1}
+.pName{font-size:27px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.pText{font-size:18.5px;color:var(--ink-2);line-height:1.6}
+.empty{font-size:17px;color:var(--ink-3);line-height:1.55}

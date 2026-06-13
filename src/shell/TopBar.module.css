@@ -1,0 +1,7 @@
+.topbar{height:54px;padding:0 22px;display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--accent-soft);background:var(--accent-tint);flex-shrink:0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--accent-2);font-size:14px;letter-spacing:-.005em}
+.brandMark{width:26px;height:26px;background:var(--accent);border-radius:7px;display:flex;align-items:center;justify-content:center}
+.divider{height:16px;width:1px;background:var(--accent-soft)}
+.title{font-size:13px;color:var(--ink-2)}
+.meta{font-family:var(--font);font-size:11px;color:var(--accent-2);letter-spacing:.02em}
+@media (max-width:880px){.topbar{padding:0 16px;height:50px}.meta{display:none}}

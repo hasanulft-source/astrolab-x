@@ -1,0 +1,23 @@
+.layout{display:flex;flex-direction:column;gap:16px;flex:1;min-height:0}
+.viewers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.col{display:flex;flex-direction:column;gap:8px}
+.colHead{display:flex;align-items:baseline;gap:10px;padding:0 4px}
+.colLabel{font-size:18.5px;font-weight:600;color:var(--ink);letter-spacing:-.005em}
+.colSub{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.12em;color:var(--teal-mid)}
+.viewerWrap{display:flex;justify-content:center;align-items:center}
+.table{display:flex;flex-direction:column;gap:8px}
+.tableHead{display:flex;align-items:center;gap:12px}
+.tableLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.16em;color:var(--ink-3);font-weight:500}
+.tableLine{flex:1;height:1px;background:var(--line-soft)}
+.tableCount{font-family:var(--font-mono);font-size:13.5px;color:var(--ink-3);letter-spacing:.04em}
+.tableToggle{background:transparent;border:1px solid var(--line);border-radius:6px;padding:5px 10px;font-family:var(--font-sans);font-size:13.5px;color:var(--ink-2);cursor:pointer;font-weight:500;transition:all .2s}
+.tableToggle:hover{border-color:var(--teal-mid);color:var(--teal-deep)}
+.tableBody{display:flex;flex-direction:column;gap:4px}
+.tableHeader{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:8px;padding:6px 12px;font-family:var(--font-mono);font-size:13.5px;letter-spacing:.12em;color:var(--ink-3)}
+.tableHeader>span{text-align:center}.colName{text-align:left!important}
+.row{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:8px;padding:11px 12px;background:var(--surface);border:1px solid var(--line);border-radius:8px;cursor:pointer;transition:all .2s var(--ease);align-items:center}
+.row:hover{border-color:var(--teal-soft)}
+.rowRevealed{background:var(--surface-2);border-color:var(--teal-soft);border-left:2px solid var(--teal-mid);padding-left:11px}
+.rowAspect{font-size:16px;font-weight:500;color:var(--ink)}
+.rowValue{font-size:16px;color:var(--ink-3);text-align:center;transition:color .3s}
+.rowRevealed .rowValue{color:var(--ink);font-weight:500}

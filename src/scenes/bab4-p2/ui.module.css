@@ -1,0 +1,24 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1.3fr 1fr;gap:22px;min-height:0}
+.graphBox{min-height:0;background:radial-gradient(circle at 50% 45%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:14px;display:flex;align-items:center}
+.side{display:flex;flex-direction:column;gap:14px;justify-content:center}
+.ctrl{display:flex;align-items:center;gap:12px}
+.cLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.1em;color:var(--teal-mid);min-width:70px}
+.range{flex:1;accent-color:var(--teal-mid)}
+.cv{font-family:var(--font-mono);font-size:19.5px;color:var(--ink);min-width:64px;text-align:right}
+.readout{padding:13px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;text-align:center}
+.rVal{font-family:var(--font-mono);font-size:27px;color:var(--teal-mid);font-weight:500}
+.rSub{font-family:var(--font-mono);font-size:14.5px;color:var(--ink-3);margin-top:4px}
+.note{font-size:17px;color:var(--ink-2);line-height:1.6;padding:13px 16px;background:var(--surface-2);border-radius:9px}
+.note b{color:var(--teal-mid)}
+.hl{padding:13px 16px;background:var(--teal-cream);border-radius:9px;font-size:17px;color:var(--ink);line-height:1.55}
+.hl b{color:var(--teal-mid)}
+.btn{align-self:flex-start;background:var(--teal-mid);color:#ffffff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn:hover{background:var(--teal-deep)}
+.legend{display:flex;flex-direction:column;gap:8px}
+.lItem{display:flex;align-items:center;gap:9px;font-size:16.5px;color:var(--ink)}
+.dot{width:14px;height:4px;border-radius:2px;flex-shrink:0}
+.field{display:flex;flex-direction:column;gap:4px}
+.fLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.14em;color:var(--teal-mid)}
+.field p{font-size:17px;color:var(--ink-2);line-height:1.55}

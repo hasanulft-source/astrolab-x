@@ -1,0 +1,15 @@
+.layout{display:flex;flex-direction:column;gap:14px;flex:1;min-height:0}
+.banner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 20px;background:var(--teal-cream);border-radius:10px;border:1px solid rgba(122,178,178,.4)}
+.bannerLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.18em;color:var(--teal-mid);font-weight:500;margin-right:12px}
+.bannerText{font-size:19.5px;color:var(--ink);font-weight:600;letter-spacing:-.005em}
+.instruction{font-size:16px;color:var(--teal-deep);font-style:italic;text-align:right;max-width:360px}
+.viewer{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.viewer>*{width:100%;max-width:780px}
+.buttons{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:16px 12px;font-family:var(--font-sans);background:var(--surface);border:2px solid var(--line);border-radius:12px;cursor:pointer;transition:all .25s var(--ease)}
+.btn:hover{border-color:var(--teal-soft);transform:translateY(-1px)}
+.btnActive{background:var(--teal-deep);border-color:var(--teal-deep)}
+.btnLabel{font-size:22px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.btnActive .btnLabel{color:#fff}
+.btnState{font-family:var(--font-mono);font-size:12px;letter-spacing:.18em;color:var(--teal-mid);font-weight:500}
+.btnActive .btnState{color:rgba(255,255,255,.7)}

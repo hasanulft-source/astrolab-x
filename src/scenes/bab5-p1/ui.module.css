@@ -1,0 +1,46 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1.25fr 1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 40%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:20px;display:flex;align-items:center;justify-content:center}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0;justify-content:center}
+.btn{align-self:center;background:var(--teal-mid);color:#fff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn:hover{background:var(--teal-deep)}
+.reveal{font-size:17px;color:var(--ink);line-height:1.55;padding:14px 16px;background:var(--teal-cream);border-radius:10px}
+.reveal b{color:var(--teal-mid)}
+.objGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:100%}
+.objCard{display:flex;flex-direction:column;align-items:center;gap:8px;padding:18px 10px;border:1px solid var(--line);border-radius:14px;background:var(--surface);transition:all .2s}
+.objCard svg{color:var(--ink-2)}
+.objName{font-size:15px;font-weight:600;color:var(--ink)}
+.alive{border-color:var(--teal-mid);background:var(--teal-cream)}
+.alive svg{color:var(--teal-deep)}
+.tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;padding:2px 8px;border-radius:6px}
+.tagAlive{background:var(--teal-mid);color:#fff}
+.tagNot{background:var(--surface-2);color:var(--ink-3)}
+.ciriGrid{display:grid;grid-template-columns:1fr 1fr;gap:9px;width:100%}
+.ciriCard{display:flex;align-items:center;gap:9px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font-family:var(--font-sans);font-size:14.5px;font-weight:600;color:var(--ink-2);text-align:left;transition:all .2s}
+.ciriCard:hover{border-color:var(--teal-soft)}
+.on{background:var(--teal-mid);color:#fff;border-color:var(--teal-mid)}
+.ciriNum{font-family:var(--font-mono);font-size:12px;opacity:.7}
+.detail{padding:16px 18px;background:var(--teal-cream);border-radius:11px}
+.detailH{font-size:18px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.detailP{font-size:16px;color:var(--ink-2);line-height:1.55}
+.allNote{font-size:15.5px;color:var(--ink);line-height:1.5;padding:12px 15px;background:var(--surface-2);border:1px solid var(--line);border-radius:10px}
+.allNote b{color:var(--teal-mid)}
+.tabs{display:flex;gap:8px;flex-shrink:0}
+.tab{flex:1;padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-family:var(--font-sans);font-size:16px;font-weight:600;color:var(--ink-2);cursor:pointer;transition:all .2s}
+.tab:hover{border-color:var(--teal-soft)}
+.checkList{display:flex;flex-direction:column;gap:7px;width:100%}
+.checkRow{display:flex;align-items:center;gap:10px;padding:9px 13px;border-radius:9px;background:var(--surface);border:1px solid var(--line);font-size:15px;color:var(--ink)}
+.mark{width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0}
+.markYes{background:var(--teal-cream);color:var(--teal-deep)}
+.markNo{background:#fbeaea;color:#c0392b}
+.verdict{padding:14px 16px;border-radius:11px;font-size:16px;line-height:1.55;color:var(--ink);background:var(--teal-cream)}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:12px;font-weight:600;letter-spacing:.04em;padding:4px 10px;border-radius:7px;margin-bottom:8px}
+.bYa{background:var(--teal-mid);color:#fff}
+.bTidak{background:#fbeaea;color:#c0392b}
+.bBatas{background:#fdf0d8;color:#9a6a10}
+.reflect{padding:16px 18px;background:var(--teal-cream);border-radius:12px;font-size:17px;color:var(--ink);line-height:1.6}
+.reflect b{color:var(--teal-mid)}
+.exit{padding:14px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;font-size:16px;color:var(--ink-2);line-height:1.55}
+.exit b{color:var(--ink)}
+@media (max-width:880px){.main{grid-template-columns:1fr}}

@@ -1,0 +1,12 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.main{flex:1;display:grid;grid-template-columns:1.5fr 1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 45%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden}
+.panel{display:flex;flex-direction:column;gap:14px;min-width:0;justify-content:center}
+.revealBtn{align-self:flex-start;background:var(--teal-mid);color:#ffffff;border:none;border-radius:9px;padding:12px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.revealBtn:hover{background:var(--teal-deep)}
+.exit{display:flex;flex-direction:column;gap:10px}
+.exitLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.16em;color:var(--teal-mid)}
+.exit p{font-size:18.5px;color:var(--ink-2);line-height:1.5}
+.exit b{color:var(--teal-mid);font-size:20.5px;margin-right:4px}
+.reset{align-self:flex-start;margin-top:6px;background:transparent;border:1px solid var(--line);border-radius:8px;padding:7px 14px;font-family:var(--font-mono);font-size:13.5px;color:var(--ink-3);letter-spacing:.04em;cursor:pointer;transition:all .2s}
+.reset:hover{border-color:var(--teal-mid);color:var(--teal-deep)}

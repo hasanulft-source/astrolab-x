@@ -1,0 +1,15 @@
+.wrap { display:flex; flex-direction:column; gap:12px; }
+.head { display:flex; align-items:center; gap:12px; }
+.lbl { font-family:var(--font-mono); font-size:11px; letter-spacing:.16em; color:var(--ink-3); font-weight:500; }
+.line { flex:1; height:1px; background:var(--line-soft); }
+.count { font-family:var(--font-mono); font-size:11px; color:var(--ink-3); letter-spacing:.04em; }
+.list { display:flex; flex-direction:column; gap:8px; }
+.item, .add, .adding { display:flex; align-items:flex-start; gap:12px; padding:11px 14px; border-radius:8px; font-size:13.5px; line-height:1.55; }
+.item { background:var(--surface-2); color:var(--ink); border-left:2px solid var(--teal-soft); }
+.add { border:1px dashed var(--line); color:var(--ink-3); cursor:pointer; transition:all .2s; }
+.add:hover { border-color:var(--teal-mid); color:var(--teal-mid); background:var(--surface-2); }
+.adding { border:1px solid var(--teal-mid); background:var(--surface); align-items:center; }
+.mark { color:var(--teal-mid); font-family:var(--font-mono); font-size:14px; line-height:1.3; font-weight:500; }
+.addIcon { color:var(--teal-mid); font-family:var(--font-mono); font-size:15px; font-weight:500; }
+.input { flex:1; border:none; outline:none; background:transparent; font-family:var(--font-sans); font-size:13.5px; color:var(--ink); }
+.input::placeholder { color:var(--ink-3); }

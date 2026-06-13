@@ -1,0 +1,4 @@
+.keys { display:flex; gap:8px; align-items:center; color:var(--ink-3); font-size:11px; }
+.key { background:var(--surface-2); border:1px solid var(--line); border-radius:4px; padding:3px 8px; font-family:var(--font); font-size:11px; color:var(--ink-2); font-weight:500; }
+.sep { width:1px; height:14px; background:var(--line); margin:0 4px; }
+@media (max-width:880px) { .keys { display:none; } }

@@ -1,0 +1,8 @@
+.page{min-height:100vh;background:var(--bg);display:flex;flex-direction:column}
+.player{flex:1;display:flex;flex-direction:column;padding:16px 24px 24px;min-height:0}
+.bar{display:flex;align-items:center;gap:16px;margin-bottom:14px;flex-shrink:0}
+.back{font-family:var(--font);font-size:12px;color:var(--accent);letter-spacing:.04em;padding:6px 0;text-decoration:none}
+.back:hover{color:var(--accent-2)}
+.crumb{margin-left:auto;font-family:var(--font);font-size:11px;color:var(--ink-3);letter-spacing:.06em}
+.stage{flex:1;display:flex;align-items:center;justify-content:center;min-height:0}
+.notFound{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:var(--ink-2);font-size:14px}

@@ -1,0 +1,3 @@
+.frac{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;vertical-align:middle;margin:0 .2em;line-height:1}
+.top{display:block;padding:0 .34em .05em;border-bottom:2px solid currentColor;font-size:.84em}
+.bot{display:block;padding:.05em .34em 0;font-size:.84em}

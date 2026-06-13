@@ -1,0 +1,11 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1.5fr 1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 45%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden}
+.panel{display:flex;flex-direction:column;gap:16px;min-width:0;justify-content:center}
+.head{display:flex;align-items:center;gap:12px}
+.pIcon{font-size:39px;line-height:1}
+.pName{font-size:25.5px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.field{display:flex;flex-direction:column;gap:5px}
+.fLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.14em;color:var(--teal-mid)}
+.field p{font-size:17.5px;color:var(--ink-2);line-height:1.6}

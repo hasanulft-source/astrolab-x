@@ -1,0 +1,14 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1fr 1.2fr;gap:24px;min-height:0}
+.left{display:flex;flex-direction:column;gap:12px;min-height:0}
+.viz{flex:1;min-height:0;background:radial-gradient(circle at 50% 45%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;display:flex;align-items:center;justify-content:center;padding:10px}
+.slider{display:flex;align-items:center;gap:12px}
+.sLabel{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.14em;color:var(--teal-mid);min-width:42px}
+.range{flex:1;accent-color:var(--teal-mid)}
+.sVal{font-family:var(--font-mono);font-size:16px;color:var(--ink);min-width:54px;text-align:right}
+.vars{display:flex;flex-direction:column;gap:12px;justify-content:center}
+.varCard{display:flex;flex-direction:column;gap:3px;padding:13px 16px;background:var(--surface-2);border:1px solid var(--line);border-left-width:3px;border-radius:10px}
+.vTag{font-family:var(--font-mono);font-size:13.5px;letter-spacing:.14em}
+.vName{font-size:18.5px;font-weight:600;color:var(--ink);letter-spacing:-.005em}
+.vDesc{font-size:16px;color:var(--ink-2);line-height:1.5}

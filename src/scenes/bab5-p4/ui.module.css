@@ -1,0 +1,45 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1.2fr 1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 40%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:22px;display:flex;align-items:center;justify-content:center}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0;justify-content:center}
+.btn{align-self:center;background:var(--teal-mid);color:#fff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn:hover{background:var(--teal-deep)}
+.reveal{font-size:17px;color:var(--ink);line-height:1.55;padding:14px 16px;background:var(--teal-cream);border-radius:10px}
+.reveal b{color:var(--teal-mid)}
+.chipWrap{display:flex;flex-wrap:wrap;gap:9px;justify-content:center}
+.chipN{font-size:15px;font-weight:600;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 13px}
+.qBox{display:flex;flex-direction:column;gap:22px;align-items:center;width:100%}
+.qText{font-size:21px;font-weight:700;color:var(--ink);text-align:center;line-height:1.4}
+.yt{display:flex;gap:14px}
+.ytBtn{min-width:120px;padding:14px 22px;border:1.5px solid var(--teal-mid);border-radius:11px;background:var(--surface);color:var(--teal-deep);font-family:var(--font-sans);font-size:18px;font-weight:700;cursor:pointer;transition:all .15s}
+.ytBtn:hover{background:var(--teal-mid);color:#fff}
+.resultBox{display:flex;flex-direction:column;gap:12px;align-items:center}
+.resultK{font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-deep)}
+.resultV{font-size:34px;font-weight:800;color:var(--teal-deep);letter-spacing:-.02em}
+.btnG{margin-top:4px;background:var(--surface);color:var(--teal-deep);border:1px solid var(--teal-soft);border-radius:9px;padding:9px 18px;font-family:var(--font-sans);font-size:15px;font-weight:600;cursor:pointer}
+.btnG:hover{background:var(--teal-cream)}
+.trailH{font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.trailEmpty{font-size:15px;color:var(--ink-3);padding:12px 14px;background:var(--surface-2);border:1px solid var(--line);border-radius:10px}
+.trail{display:flex;flex-direction:column;gap:7px}
+.trailItem{display:flex;align-items:center;gap:10px;padding:9px 12px;background:var(--surface);border:1px solid var(--line);border-radius:9px}
+.trailQ{flex:1;font-size:13.5px;color:var(--ink-2);line-height:1.4}
+.trailA{font-family:var(--font-mono);font-size:12px;font-weight:600;padding:2px 9px;border-radius:6px;flex-shrink:0}
+.taYes{background:var(--teal-mid);color:#fff}
+.taNo{background:var(--surface-2);color:var(--ink-3)}
+.keyTable{display:flex;flex-direction:column;gap:8px;width:100%}
+.couplet{display:flex;gap:14px;align-items:stretch;background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:10px 14px}
+.cNo{flex:0 0 28px;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:15px;font-weight:600;color:var(--teal-deep);background:var(--teal-cream);border-radius:8px}
+.cOpts{flex:1;display:flex;flex-direction:column;gap:5px}
+.cOpt{font-size:15px;color:var(--ink-2);line-height:1.4}
+.cLabel{font-family:var(--font-mono);font-size:12px;color:var(--ink-3);margin-right:4px}
+.cArrow{color:var(--ink-3);margin:0 3px}
+.goNext{color:var(--ink-3);font-style:italic}
+.goResult{color:var(--teal-deep);font-weight:700}
+.tNote{margin-top:14px;font-size:15px;color:var(--ink-2);line-height:1.5;padding:11px 15px;background:var(--surface-2);border:1px solid var(--line);border-radius:10px}
+.tNote b{color:var(--teal-mid)}
+.reflect{padding:16px 18px;background:var(--teal-cream);border-radius:12px;font-size:17px;color:var(--ink);line-height:1.6}
+.reflect b{color:var(--teal-mid)}
+.exit{padding:14px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;font-size:16px;color:var(--ink-2);line-height:1.55}
+.exit b{color:var(--ink)}
+@media (max-width:880px){.main{grid-template-columns:1fr}}

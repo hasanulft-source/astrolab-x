@@ -1,0 +1,17 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:24px;min-height:0;overflow:hidden}
+.steps{display:flex;flex-direction:column;gap:9px;overflow:auto}
+.step{display:flex;flex-direction:column;gap:2px;padding:11px 14px;background:var(--surface-2);border:1px solid var(--line);border-radius:9px;border-left:2px solid var(--teal-deep)}
+.stepLabel{font-family:var(--font-mono);font-size:13px;letter-spacing:.14em;color:var(--teal-mid)}
+.stepText{font-size:16.5px;color:var(--ink);line-height:1.5}
+.note{font-size:15px;color:var(--ink-2);line-height:1.55;padding:11px 14px;background:var(--teal-cream);border-radius:9px;margin-top:2px}
+.note b{color:var(--teal-mid)}
+.tags{display:flex;flex-direction:column;gap:9px;overflow:auto}
+.tagCard{padding:12px 15px;background:var(--surface-2);border:1px solid var(--line);border-radius:9px;cursor:pointer;transition:all .2s}
+.tagCard:hover{border-color:var(--teal-soft)}
+.tagTop{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.tagName{font-size:17.5px;font-weight:500;color:var(--ink)}
+.tagType{font-family:var(--font-mono);font-size:13.5px;font-weight:500;letter-spacing:.06em}
+.tagHint{font-family:var(--font-mono);font-size:13px;color:var(--ink-3);letter-spacing:.1em}
+.tagWhy{font-size:15px;color:var(--ink-2);line-height:1.5;margin-top:6px}

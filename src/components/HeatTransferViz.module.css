@@ -1,0 +1,6 @@
+.seg{animation:htSeg 2.8s ease-in-out infinite}
+@keyframes htSeg{0%,100%{fill:#bcc6cb}50%{fill:#e0552a}}
+.flame{animation:htFlick .6s ease-in-out infinite alternate}
+@keyframes htFlick{from{opacity:.65}to{opacity:1}}
+.wave{animation:htWave 2.4s ease-out infinite}
+@keyframes htWave{0%{r:24px;opacity:.7}100%{r:96px;opacity:0}}
