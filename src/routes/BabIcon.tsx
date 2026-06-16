@@ -8,6 +8,13 @@ export function BabIcon({ babId, size = 24 }: { babId: string; size?: number }) 
     case 'bab5': return (<svg {...p} strokeLinejoin="round"><path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M6 18c4-4 8-7 12-9"/></svg>)
     case 'bab6': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><circle cx="8.5" cy="8" r="3"/><path d="M3 19c3-5 5.5-5 7.5-2s4 1.5 6-1.5 4.5-1 4.5-1"/></svg>)
     case 'bab7': return (<svg {...p} strokeLinejoin="round"><circle cx="12" cy="12" r="5"/><ellipse cx="12" cy="12" rx="10" ry="3.4" transform="rotate(-20 12 12)"/></svg>)
+    case 'k8bab1': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M12 8.5c-1.6-2.4-5-2-6.5 0-1.8 2.4-1 7 1 9.6 1 1.4 2.5 2.4 5.5 2.4s4.5-1 5.5-2.4c2-2.6 2.8-7.2 1-9.6-1.5-2-4.9-2.4-6.5 0z"/><path d="M12 8.5C12 6 13.2 4.7 15.2 4.5"/></svg>)
+    case 'k8bab2': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M12 4v8"/><path d="M12 9c-1-2.2-4.5-2-5.6.3C5 12 5.5 17.5 8 19c1.6 1 3.5-.2 3.5-2.2V9z"/><path d="M12 9c1-2.2 4.5-2 5.6.3C19 12 18.5 17.5 16 19c-1.6 1-3.5-.2-3.5-2.2V9z"/></svg>)
+    case 'k8bab3': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3.4"/><path d="M12 2.5v3.2M12 18.3v3.2M2.5 12h3.2M18.3 12h3.2M5.2 5.2l2.3 2.3M16.5 16.5l2.3 2.3M18.8 5.2l-2.3 2.3M7.5 16.5l-2.3 2.3"/></svg>)
+    case 'k8bab4': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M3.5 13a8.5 8.5 0 0 1 17 0"/><path d="M12 13l3.5-3"/><circle cx="12" cy="13" r="1.3" fill="currentColor" stroke="none"/><path d="M5 17.5h14"/></svg>)
+    case 'k8bab5': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M2 12q2.5-6 5 0t5 0t5 0t5 0"/></svg>)
+    case 'k8bab6': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M5 4h14l-5.5 7.5V18l-3 2v-8.5z"/></svg>)
+    case 'k8bab7': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M4 11h16v9H4z"/><path d="M4 14.5h16M4 17.5h16"/><path d="M12 11V6M12 6c-1.6 0-2.6-1-2.6-2.2M12 6c1.6 0 2.6-1 2.6-2.2"/></svg>)
     default: return (<svg {...p}><circle cx="12" cy="12" r="8"/></svg>)
   }
 }

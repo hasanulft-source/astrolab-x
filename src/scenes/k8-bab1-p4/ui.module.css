@@ -1,0 +1,37 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1fr 1.1fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 40%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0;justify-content:center}
+.btn{align-self:center;background:var(--teal-mid);color:#fff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn:hover{background:var(--teal-deep)}
+.reveal{font-size:17px;color:var(--ink);line-height:1.55;padding:14px 16px;background:var(--teal-cream);border-radius:10px}
+.reveal b{color:var(--teal-mid)}
+.hookLoop{font-size:96px;color:var(--teal-soft);line-height:1}
+.tabsTop{display:flex;gap:8px}
+.tt{padding:8px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;cursor:pointer;transition:all .15s}
+.tt:hover{border-color:var(--teal-soft)}
+.on{background:var(--teal-mid);color:#fff;border-color:var(--teal-mid)}
+.circ{width:100%;max-width:280px;height:auto}
+.detail{font-size:15.5px;color:var(--ink);line-height:1.55;padding:14px 16px;background:var(--teal-cream);border-radius:11px}
+.detail b{color:var(--teal-deep)}
+.note{font-size:13.5px;color:var(--ink-2);line-height:1.5;padding:10px 13px;background:var(--surface-2);border:1px solid var(--line);border-radius:9px}
+.pCards{display:flex;flex-direction:column;gap:9px;width:100%}
+.pCard{padding:13px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink-2);font-family:var(--font-sans);font-size:16px;font-weight:600;cursor:pointer;transition:all .15s}
+.pCard:hover{border-color:var(--teal-soft)}
+.detail2{background:var(--teal-cream);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.dName{font-size:20px;font-weight:700;color:var(--teal-deep)}
+.dRow{font-size:15px;color:var(--ink);line-height:1.5}
+.dRow span{font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--teal-deep);margin-right:7px}
+.pulseWrap{display:flex;flex-direction:column;align-items:center;gap:14px}
+.pulse{width:70px;height:70px;background:radial-gradient(circle at 40% 38%,#e0554d,#b6271f);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;transform:rotate(45deg);animation:beat 1.1s ease-in-out infinite}
+.pulseFast{animation-duration:.5s}
+@keyframes beat{0%,100%{transform:rotate(45deg) scale(1)}25%{transform:rotate(45deg) scale(1.14)}}
+.bpm{font-family:var(--font-mono);font-size:30px;font-weight:700;color:var(--teal-deep);display:flex;flex-direction:column;align-items:center;line-height:1.1}
+.bpm span{font-size:12px;font-weight:500;color:var(--ink-3);letter-spacing:.03em;text-transform:uppercase}
+.toggle{display:flex;gap:8px}
+.tBtn{flex:1;padding:11px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--ink-2);font-family:var(--font-sans);font-size:15px;font-weight:600;cursor:pointer;transition:all .15s}
+.tBtn:hover{border-color:var(--teal-soft)}
+.reflect{padding:16px 18px;background:var(--teal-cream);border-radius:12px;font-size:16.5px;color:var(--ink);line-height:1.6}
+.reflect b{color:var(--teal-mid)}
+@media (max-width:880px){.main{grid-template-columns:1fr}}

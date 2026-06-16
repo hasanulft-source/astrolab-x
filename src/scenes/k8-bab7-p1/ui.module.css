@@ -1,0 +1,24 @@
+.prompt{font-size:23px;color:var(--ink);font-weight:600;line-height:1.5;letter-spacing:-.005em}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:1fr 1.05fr;gap:22px;min-height:0}
+.viz{min-height:0;background:radial-gradient(circle at 50% 40%,#e6f2f3 0%,#f7fbfb 100%);border:1px solid var(--line);border-radius:var(--radius-lg);padding:18px;display:flex;align-items:center;justify-content:center}
+.side{display:flex;flex-direction:column;gap:13px;min-width:0;justify-content:center}
+.btn{align-self:center;background:var(--teal-mid);color:#fff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:17px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn:hover{background:var(--teal-deep)}
+.reveal{font-size:17px;color:var(--ink);line-height:1.55;padding:14px 16px;background:var(--teal-cream);border-radius:10px}
+.reveal b{color:var(--teal-mid)}
+.hookSoil{width:110px;height:90px;border-radius:10px;background:radial-gradient(circle at 30% 30%,#b08a5a,#7a5a32);box-shadow:inset 0 -8px 14px rgba(0,0,0,.2)}
+.jarSvg{width:100%;max-width:150px;height:auto}
+.detail{font-size:16px;color:var(--ink);line-height:1.55;padding:15px 17px;background:var(--teal-cream);border-radius:12px}
+.detail b{color:var(--teal-deep)}
+.cards{display:flex;flex-direction:column;gap:9px;width:100%}
+.card{display:flex;align-items:center;justify-content:space-between;padding:13px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink-2);font-family:var(--font-sans);font-size:15px;font-weight:600;cursor:pointer;transition:all .15s}
+.card:hover{border-color:var(--teal-soft)}
+.on{background:var(--teal-mid);color:#fff;border-color:var(--teal-mid)}
+.cP{font-family:var(--font-mono);font-size:13px;color:var(--teal-deep)}
+.on .cP{color:rgba(255,255,255,.9)}
+.reflect{padding:16px 18px;background:var(--teal-cream);border-radius:12px;font-size:17px;color:var(--ink);line-height:1.6}
+.reflect b{color:var(--teal-mid)}
+.exit{padding:14px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:11px;font-size:16px;color:var(--ink-2);line-height:1.55}
+.exit b{color:var(--teal-mid)}
+@media (max-width:880px){.main{grid-template-columns:1fr}}
