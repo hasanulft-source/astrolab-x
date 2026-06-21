@@ -57,6 +57,26 @@ import { k8bab7p1Scenes } from './scenes/k8-bab7-p1'
 import { k8bab7p2Scenes } from './scenes/k8-bab7-p2'
 import { k8bab7p3Scenes } from './scenes/k8-bab7-p3'
 import { k8bab7p4Scenes } from './scenes/k8-bab7-p4'
+import { infbab1p1Scenes } from './scenes/inf-bab1-p1'
+import { infbab1p2Scenes } from './scenes/inf-bab1-p2'
+import { infbab1p3Scenes } from './scenes/inf-bab1-p3'
+import { infbab1p4Scenes } from './scenes/inf-bab1-p4'
+import { infbab2p1Scenes } from './scenes/inf-bab2-p1'
+import { infbab2p2Scenes } from './scenes/inf-bab2-p2'
+import { infbab2p3Scenes } from './scenes/inf-bab2-p3'
+import { infbab2p4Scenes } from './scenes/inf-bab2-p4'
+import { infbab3p1Scenes } from './scenes/inf-bab3-p1'
+import { infbab3p2Scenes } from './scenes/inf-bab3-p2'
+import { infbab3p3Scenes } from './scenes/inf-bab3-p3'
+import { infbab3p4Scenes } from './scenes/inf-bab3-p4'
+import { infbab4p1Scenes } from './scenes/inf-bab4-p1'
+import { infbab4p2Scenes } from './scenes/inf-bab4-p2'
+import { infbab4p3Scenes } from './scenes/inf-bab4-p3'
+import { infbab4p4Scenes } from './scenes/inf-bab4-p4'
+import { infbab5p1Scenes } from './scenes/inf-bab5-p1'
+import { infbab5p2Scenes } from './scenes/inf-bab5-p2'
+import { infbab5p3Scenes } from './scenes/inf-bab5-p3'
+import { infbab5p4Scenes } from './scenes/inf-bab5-p4'
 
 export interface SimEntry {
   id: string; mapel: string; kelas: string
@@ -78,6 +98,11 @@ const K8BAB4 = 'BAB IV · Tekanan pada Zat'
 const K8BAB5 = 'BAB V · Gelombang & Cahaya'
 const K8BAB6 = 'BAB VI · Pemisahan Campuran'
 const K8BAB7 = 'BAB VII · Tanah bagi Kehidupan'
+const INFBAB1 = 'BAB 1 · Berpikir Komputasional & Algoritma'
+const INFBAB2 = 'BAB 2 · Analisis Data'
+const INFBAB3 = 'BAB 3 · Literasi Digital'
+const INFBAB4 = 'BAB 4 · Etika & Privasi Digital'
+const INFBAB5 = 'BAB 5 · Sistem Komputer & Jaringan'
 
 export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab1-p1', mapel:'IPA', kelas:'VII', babId:'bab1', babTitle:BAB1, babOrder:1, pertemuan:1, judul:'Apa itu Sains? — Konstelasi cabang IPA',            scenes:bab1p1Scenes, updatedAt:'2026-06-04' },
@@ -138,17 +163,37 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-viii-bab7-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:2, judul:'Profil & Lapisan Tanah', scenes:k8bab7p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab7-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:3, judul:'Tekstur & pH Tanah', scenes:k8bab7p3Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab7-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:4, judul:'Degradasi & Konservasi Tanah', scenes:k8bab7p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p1', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:1, judul:'4 Pondasi Berpikir Komputasional', scenes:infbab1p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p2', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:2, judul:'Dekomposisi & Pengenalan Pola', scenes:infbab1p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p3', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:3, judul:'Algoritma & Pseudocode', scenes:infbab1p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p4', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:4, judul:'Pemrograman Blok (Scratch)', scenes:infbab1p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p1', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:1, judul:'Data & Informasi', scenes:infbab2p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p2', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:2, judul:'Spreadsheet & Formula Dasar', scenes:infbab2p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p3', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:6, judul:'Mengurutkan & Menyaring Data', scenes:infbab2p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p4', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:7, judul:'Visualisasi & Analisis Data', scenes:infbab2p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p1', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:1, judul:'Data, Informasi & Konten', scenes:infbab3p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p2', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:2, judul:'Mesin Pencari Efektif', scenes:infbab3p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p3', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:4, judul:'Fakta, Opini & Hoaks', scenes:infbab3p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p4', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:5, judul:'Kredibilitas Sumber & Manajemen', scenes:infbab3p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab4-p1', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:1, judul:'Ruang Publik Virtual & Etika', scenes:infbab4p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab4-p2', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:2, judul:'Keseimbangan Dunia Digital', scenes:infbab4p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab4-p3', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:3, judul:'Informasi Privat & Publik', scenes:infbab4p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab4-p4', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:3, judul:'Kata Sandi Aman', scenes:infbab4p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p1', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:1, judul:'Perangkat Keras Komputer', scenes:infbab5p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p2', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:2, judul:'Cara Kerja Komputer (IPO)', scenes:infbab5p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p3', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:2, judul:'Perangkat Lunak & Sistem Operasi', scenes:infbab5p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p4', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:7, judul:'Jaringan & Internet', scenes:infbab5p4Scenes, updatedAt:'2026-06-21' },
 ]
 
 export function getSim(id: string): SimEntry | undefined { return SIMS.find(s => s.id === id) }
 
-export interface SubjectGroup { mapel: string; kelas: string; babCount: number; simCount: number }
+export interface SubjectGroup { mapel: string; kelas: string; iconBabId: string; babCount: number; simCount: number }
 export function subjectGroups(): SubjectGroup[] {
   const map = new Map<string, SimEntry[]>()
   for (const s of SIMS) { const k = s.mapel + '|' + s.kelas; if (!map.has(k)) map.set(k, []); map.get(k)!.push(s) }
   return Array.from(map.entries()).map(([k, sims]) => {
     const [mapel, kelas] = k.split('|')
-    return { mapel, kelas, babCount: new Set(sims.map(s => s.babId)).size, simCount: sims.length }
+    return { mapel, kelas, iconBabId: sims[0].babId, babCount: new Set(sims.map(s => s.babId)).size, simCount: sims.length }
   })
 }
 

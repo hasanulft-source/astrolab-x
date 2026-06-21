@@ -15,6 +15,11 @@ export function BabIcon({ babId, size = 24 }: { babId: string; size?: number }) 
     case 'k8bab5': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M2 12q2.5-6 5 0t5 0t5 0t5 0"/></svg>)
     case 'k8bab6': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M5 4h14l-5.5 7.5V18l-3 2v-8.5z"/></svg>)
     case 'k8bab7': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M4 11h16v9H4z"/><path d="M4 14.5h16M4 17.5h16"/><path d="M12 11V6M12 6c-1.6 0-2.6-1-2.6-2.2M12 6c1.6 0 2.6-1 2.6-2.2"/></svg>)
+    case 'infbab1': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M9 8l-3.6 4 3.6 4M15 8l3.6 4-3.6 4"/></svg>)
+    case 'infbab2': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M3 20h18"/><rect x="5" y="11" width="3.4" height="7" rx="1"/><rect x="10.3" y="5" width="3.4" height="13" rx="1"/><rect x="15.6" y="8" width="3.4" height="10" rx="1"/></svg>)
+    case 'infbab3': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M15.8 15.8L20 20"/></svg>)
+    case 'infbab4': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><path d="M12 3.5l6.5 2.5v4.5c0 3.8-2.8 6.8-6.5 8.5-3.7-1.7-6.5-4.7-6.5-8.5V6z"/><path d="M9.3 11.8l1.8 1.8 3.6-3.6"/></svg>)
+    case 'infbab5': return (<svg {...p} strokeLinecap="round" strokeLinejoin="round"><rect x="7" y="7" width="10" height="10" rx="1.5"/><rect x="10" y="10" width="4" height="4" rx="0.5"/><path d="M9.5 7V4.5M14.5 7V4.5M9.5 19.5V17M14.5 19.5V17M7 9.5H4.5M7 14.5H4.5M19.5 9.5H17M19.5 14.5H17"/></svg>)
     default: return (<svg {...p}><circle cx="12" cy="12" r="8"/></svg>)
   }
 }

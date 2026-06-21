@@ -30,6 +30,11 @@
   --k8bab5-bg:#ece7fa; --k8bab5-fg:#6a4caf;
   --k8bab6-bg:#e3f1e7; --k8bab6-fg:#3a7d52;
   --k8bab7-bg:#efe6da; --k8bab7-fg:#8a6234;
+  --infbab1-bg:#e7ecfb; --infbab1-fg:#4a5bd0;
+  --infbab2-bg:#e0f0ec; --infbab2-fg:#1f8a7a;
+  --infbab3-bg:#fcefdc; --infbab3-fg:#c47d1a;
+  --infbab4-bg:#efe7f9; --infbab4-fg:#7c4dbb;
+  --infbab5-bg:#e2eef5; --infbab5-fg:#2b7fa8;
   --ease:cubic-bezier(.4,0,.2,1);
 }
 body{font-weight:500;text-rendering:optimizeLegibility}

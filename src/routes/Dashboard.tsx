@@ -73,7 +73,7 @@ export function Dashboard() {
             <div className={styles.subjects}>
               {subjects.map(sg => (
                 <Link key={sg.mapel + sg.kelas} to={`/c/${sg.mapel}/${sg.kelas}`} className={styles.subj}>
-                  <div className={styles.subjIcon}><BabIcon babId="bab1" size={26} /></div>
+                  <div className={styles.subjIcon}><BabIcon babId={sg.iconBabId} size={26} /></div>
                   <div className={styles.subjName}>{sg.mapel}</div>
                   <div className={styles.subjGrade}>Kelas {sg.kelas}</div>
                   <div className={styles.subjStats}><span><b>{sg.babCount}</b> BAB</span><span className={styles.dot2}>·</span><span><b>{sg.simCount}</b> simulasi</span></div>
