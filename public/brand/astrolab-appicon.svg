@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>Astrolab App Icon</title>
+  <defs>
+    <linearGradient id="bg-app" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a7088"/>
+      <stop offset="100%" stop-color="#063f4d"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="url(#bg-app)"/>
+  <g transform="translate(100, 105)">
+    <polygon points="0,-52 26,-16 0,5 -26,-16" fill="#ffffff"/>
+    <polygon points="-26,-16 -10,16 -36,42 -52,10" fill="#ffffff" opacity="0.82"/>
+    <polygon points="26,-16 52,10 36,42 10,16" fill="#ffffff" opacity="0.82"/>
+    <rect x="-16" y="5" width="32" height="10" rx="2" fill="#ffffff" opacity="0.55"/>
+  </g>
+</svg>

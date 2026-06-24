@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>Astrolab Logo — A-Cluster Primary</title>
+  <g transform="translate(100, 105)">
+    <!-- Top rhombus (apex) -->
+    <polygon points="0,-65 32,-20 0,6 -32,-20" fill="#09637E"/>
+    <!-- Left rhombus -->
+    <polygon points="-32,-20 -13,20 -45,52 -64,12" fill="#088395"/>
+    <!-- Right rhombus -->
+    <polygon points="32,-20 64,12 45,52 13,20" fill="#088395"/>
+    <!-- Cross bar of A -->
+    <rect x="-20" y="6" width="40" height="13" rx="2" fill="#7AB2B2"/>
+  </g>
+</svg>

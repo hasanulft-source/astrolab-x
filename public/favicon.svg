@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <title>Astrolab Favicon</title>
+  <g transform="translate(16, 17)">
+    <polygon points="0,-11 5.5,-3.5 0,1 -5.5,-3.5" fill="#09637E"/>
+    <polygon points="-5.5,-3.5 -2,3.5 -8,9 -11.5,2" fill="#088395"/>
+    <polygon points="5.5,-3.5 11.5,2 8,9 2,3.5" fill="#088395"/>
+    <rect x="-3.5" y="1" width="7" height="2.2" rx="0.5" fill="#7AB2B2"/>
+  </g>
+</svg>
