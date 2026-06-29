@@ -1,0 +1,25 @@
+.wrap{display:flex;flex-direction:column;gap:0;height:100%}
+.prompt{font-size:22px;font-weight:600;color:var(--ink);line-height:1.5;margin-bottom:10px}
+.prompt em{color:var(--teal-mid);font-style:normal}
+.main{flex:1;display:grid;grid-template-columns:1.2fr 1fr;gap:18px;min-height:0}
+.controls{display:flex;flex-direction:column;gap:8px;overflow:auto}
+.ctrlLabel{font-size:14px;font-weight:600;color:var(--ink-2)}
+.preset{padding:7px 11px;border-radius:7px;border:1px solid var(--line);background:var(--surface-2);cursor:pointer;font-size:13px;color:var(--ink-2);text-align:left;transition:all .15s}
+.preset:hover{border-color:var(--teal-soft);background:var(--teal-cream)}
+.matGrid{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.matBtn,.matActive{padding:6px 9px;border-radius:7px;border:1px solid var(--line);cursor:pointer;font-size:12px;text-align:left;transition:all .15s}
+.matBtn{background:var(--surface-2);color:var(--ink-2)}
+.matActive{background:var(--teal-cream);border-color:var(--teal-mid)}
+.alpha{font-family:var(--font-mono);font-size:10px;color:var(--teal-mid)}
+.slider{width:100%;accent-color:var(--teal-mid)}
+.calcPanel{display:flex;flex-direction:column;gap:8px;overflow:auto}
+.calcStep{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:5px}
+.sh{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:600;color:var(--ink)}
+.badge{width:22px;height:22px;border-radius:50%;background:var(--teal-mid);color:#fff;font-family:var(--font-mono);font-size:12px;font-weight:600;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.formula{font-family:var(--font-mono);font-size:13px;color:var(--ink-2);padding:6px 10px;background:#f7f8fa;border-radius:6px}
+.ans{display:flex;align-items:baseline;gap:8px;padding:10px 14px;background:var(--teal-cream);border-radius:8px}
+.av{font-family:var(--font-mono);font-size:26px;color:var(--teal-mid);font-weight:500}
+.au{font-size:17px;color:var(--ink-2)}
+.conv{font-family:var(--font-mono);font-size:13px;color:var(--teal-mid);padding:3px 2px}
+.note{font-size:14px;color:var(--ink-2);line-height:1.5;padding:9px 11px;background:#fefaf0;border-left:2px solid #d8c39a;border-radius:7px}
+.nextBtn{background:var(--teal-mid);color:#fff;border:none;border-radius:8px;padding:9px 16px;font-family:var(--font-sans);font-size:15px;font-weight:600;cursor:pointer;align-self:flex-start}

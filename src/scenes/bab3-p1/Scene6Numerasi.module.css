@@ -1,0 +1,24 @@
+.prompt{font-size:22px;font-weight:600;color:var(--ink);line-height:1.5;margin-bottom:10px}
+.prompt em{color:var(--teal-mid);font-style:normal}
+.main{flex:1;display:grid;grid-template-columns:1fr 1.6fr;gap:20px;min-height:0;align-items:start}
+.inputPanel{display:flex;flex-direction:column;gap:12px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-lg);padding:20px}
+.inputLabel{font-size:16px;font-weight:600;color:var(--ink-2)}
+.inputRow{display:flex;align-items:center;gap:10px}
+.input{font-family:var(--font-mono);font-size:30px;color:var(--ink);border:2px solid var(--teal-soft);border-radius:10px;padding:10px 14px;width:130px;outline:none;background:var(--teal-cream)}
+.unit{font-size:22px;color:var(--ink-3);font-family:var(--font-mono)}
+.presetLabel{font-size:14px;color:var(--ink-3)}
+.presets{display:flex;flex-wrap:wrap;gap:7px}
+.presetBtn{padding:7px 11px;border-radius:8px;border:1px solid var(--line);background:var(--surface-2);cursor:pointer;font-size:12px;color:var(--ink-2);text-align:center;line-height:1.4;transition:all .15s}
+.presetBtn:hover{border-color:var(--teal-soft);background:var(--teal-cream)}
+.presetVal{font-family:var(--font-mono);font-size:12px;color:var(--teal-mid);font-weight:500}
+.revealBtn{background:var(--teal-mid);color:#fff;border:none;border-radius:9px;padding:11px 20px;font-family:var(--font-sans);font-size:16px;font-weight:600;cursor:pointer;transition:all .2s}
+.revealBtn:hover{background:var(--teal-deep)}
+.results{display:flex;flex-direction:column;gap:10px}
+.resultCard{background:var(--surface-2);border:1px solid var(--line);border-radius:11px;padding:14px 18px;display:flex;flex-direction:column;gap:4px}
+.cardScale{font-size:16px;font-weight:600;color:var(--ink)}
+.cardFormula{font-family:var(--font-mono);font-size:13.5px;color:var(--ink-3);padding:5px 9px;background:#f7f8fa;border-radius:6px}
+.cardResult{display:flex;align-items:baseline;gap:8px;padding:8px 12px;background:var(--teal-cream);border-radius:8px;transition:opacity .3s}
+.cardNum{font-family:var(--font-mono);font-size:26px;color:var(--teal-mid);font-weight:500}
+.cardUnit{font-size:17px;color:var(--ink-2)}
+.insight{background:var(--teal-cream);border:1px solid var(--teal-soft);border-radius:10px;padding:12px 15px}
+.insightText{font-size:15px;color:var(--ink-2);line-height:1.5;margin:0}

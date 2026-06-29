@@ -77,6 +77,18 @@ import { infbab5p1Scenes } from './scenes/inf-bab5-p1'
 import { infbab5p2Scenes } from './scenes/inf-bab5-p2'
 import { infbab5p3Scenes } from './scenes/inf-bab5-p3'
 import { infbab5p4Scenes } from './scenes/inf-bab5-p4'
+import { bab2p6Scenes } from './scenes/bab2-p6'
+import { bab3p2Scenes } from './scenes/bab3-p2'
+import { bab3p6Scenes } from './scenes/bab3-p6'
+import { bab4p4Scenes } from './scenes/bab4-p4'
+import { bab4p5Scenes } from './scenes/bab4-p5'
+import { bab4p6Scenes } from './scenes/bab4-p6'
+import { bab4p7Scenes } from './scenes/bab4-p7'
+import { bab5p7Scenes } from './scenes/bab5-p7'
+import { bab6p5Scenes } from './scenes/bab6-p5'
+import { bab6p7Scenes } from './scenes/bab6-p7'
+import { bab7p5Scenes } from './scenes/bab7-p5'
+import { bab7p7Scenes } from './scenes/bab7-p7'
 
 export interface SimEntry {
   id: string; mapel: string; kelas: string
@@ -115,26 +127,38 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab2-p3', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:3, judul:'Perubahan Wujud Zat — 6 perubahan & kalor',        scenes:bab2p3Scenes, updatedAt:'2026-06-10' },
   { id:'ipa-vii-bab2-p4', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:4, judul:'Grafik Pemanasan — plateau & titik didih',         scenes:bab2p4Scenes, updatedAt:'2026-06-11' },
   { id:'ipa-vii-bab2-p5', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:5, judul:'Perubahan Fisika & Kimia — 4 tanda & klasifikasi',  scenes:bab2p5Scenes, updatedAt:'2026-06-12' },
+  { id:'ipa-vii-bab2-p6', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:6, judul:'Praktikum Perubahan Kimia', scenes:bab2p6Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p7', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:7, judul:'Massa Jenis — ρ=m/V, apung & tenggelam',       scenes:bab2p7Scenes, updatedAt:'2026-06-13' },
   { id:'ipa-vii-bab3-p1', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:1, judul:'Suhu & Skala — Celsius, Fahrenheit, Kelvin, Reamur', scenes:bab3p1Scenes, updatedAt:'2026-06-14' },
+  { id:'ipa-vii-bab3-p2', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:2, judul:'Suhu Campuran', scenes:bab3p2Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab3-p3', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:3, judul:'Perpindahan Kalor — konduksi, konveksi, radiasi',   scenes:bab3p3Scenes, updatedAt:'2026-06-15' },
   { id:'ipa-vii-bab3-p4', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:4, judul:'Kalor — Q=mcΔT & kalor jenis',                 scenes:bab3p4Scenes, updatedAt:'2026-06-16' },
   { id:'ipa-vii-bab3-p5', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:5, judul:'Pemuaian — padat/cair/gas & ΔL=L₀αΔT', scenes:bab3p5Scenes, updatedAt:'2026-06-17' },
+  { id:'ipa-vii-bab3-p6', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:6, judul:'Kalkulator ΔL & Kontekstual', scenes:bab3p6Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p1', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:1, judul:'Jarak & Perpindahan — skalar vs vektor',            scenes:bab4p1Scenes, updatedAt:'2026-06-18' },
   { id:'ipa-vii-bab4-p2', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:2, judul:'GLB & Grafik s-t — kecepatan dari kemiringan',      scenes:bab4p2Scenes, updatedAt:'2026-06-19' },
   { id:'ipa-vii-bab4-p3', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:3, judul:'GLBB & Grafik v-t — percepatan, luas & persamaan',   scenes:bab4p3Scenes, updatedAt:'2026-06-20' },
+  { id:'ipa-vii-bab4-p4', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:4, judul:'Kalkulator GLBB', scenes:bab4p4Scenes, updatedAt:'2026-06-30' },
+  { id:'ipa-vii-bab4-p5', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:5, judul:'FBD & Resultan Gaya', scenes:bab4p5Scenes, updatedAt:'2026-06-30' },
+  { id:'ipa-vii-bab4-p6', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:6, judul:'Newton I & II — F=ma', scenes:bab4p6Scenes, updatedAt:'2026-06-30' },
+  { id:'ipa-vii-bab4-p7', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:7, judul:'Newton III — Aksi Reaksi', scenes:bab4p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab5-p1', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:1, judul:'Ciri-Ciri Makhluk Hidup — hidup atau benda mati?', scenes:bab5p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab5-p2', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:3, judul:'Klasifikasi & Takson — mengelompokkan makhluk hidup', scenes:bab5p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab5-p3', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:5, judul:'Jelajah 5 Kingdom — Monera hingga Animalia', scenes:bab5p3Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab5-p4', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:7, judul:'Kunci Dikotomi — identifikasi makhluk hidup', scenes:bab5p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab5-p7', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:8, judul:'Kunci Dikotomi Interaktif', scenes:bab5p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p1', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:1, judul:'Komponen & Organisasi Ekosistem', scenes:bab6p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab6-p2', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:3, judul:'Interaksi & Simbiosis', scenes:bab6p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab6-p3', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:4, judul:'Rantai & Jaring-Jaring Makanan', scenes:bab6p3Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab6-p4', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:5, judul:'Aliran Energi & Piramida Ekologi', scenes:bab6p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab6-p5', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:6, judul:'Kalkulator Piramida Energi', scenes:bab6p5Scenes, updatedAt:'2026-06-30' },
+  { id:'ipa-vii-bab6-p7', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:7, judul:'Cascade Effect & Keseimbangan', scenes:bab6p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab7-p1', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:1, judul:'Sistem Tata Surya — Matahari & Planet', scenes:bab7p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab7-p2', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:3, judul:'Rotasi & Revolusi Bumi', scenes:bab7p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab7-p3', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:5, judul:'Fase Bulan & Gerhana', scenes:bab7p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab7-p5', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:6, judul:'8 Fase Bulan', scenes:bab7p5Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab7-p4', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:7, judul:'Efek Rumah Kaca & Pemanasan Global', scenes:bab7p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab7-p7', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:8, judul:'Data CO₂ & Perubahan Iklim', scenes:bab7p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-viii-bab1-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:1, judul:'Nutrisi & Uji Makanan', scenes:k8bab1p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab1-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:3, judul:'Organ Pencernaan', scenes:k8bab1p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab1-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:5, judul:'Darah & Jantung', scenes:k8bab1p3Scenes, updatedAt:'2026-06-21' },

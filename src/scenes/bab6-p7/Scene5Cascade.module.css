@@ -1,0 +1,25 @@
+.wrap{display:flex;flex-direction:column;height:100%}
+.prompt{font-size:22px;font-weight:600;color:var(--ink);line-height:1.5;margin-bottom:10px}
+.prompt em{color:var(--teal-mid);font-style:normal}
+.main{flex:1;display:grid;grid-template-columns:260px 1fr;gap:16px;min-height:0}
+.scenPicker{display:flex;flex-direction:column;gap:8px}
+.sp,.spActive{padding:12px 14px;border-radius:9px;border:2px solid var(--line);cursor:pointer;text-align:left;font-size:14px;font-weight:500;line-height:1.4;transition:all .15s}
+.sp{background:var(--surface-2);color:var(--ink-2)}
+.sp:hover{border-color:var(--teal-soft)}
+.spActive{background:var(--teal-cream);border-color:var(--teal-mid);color:var(--ink)}
+.legend{margin-top:auto;display:flex;flex-direction:column;gap:5px;padding:10px 0;border-top:1px solid var(--line)}
+.lgItem{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink-2)}
+.lgDot{width:10px;height:10px;border-radius:50%}
+.cascade{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-lg);padding:18px;display:flex;flex-direction:column;gap:8px;overflow:auto}
+.trigger{font-size:16px;font-weight:700;color:var(--ink);padding:12px 16px;background:#fef2f2;border:1px solid #fca5a5;border-radius:9px}
+.chain{display:flex;flex-direction:column;gap:4px}
+.stepWrap{display:flex;flex-direction:column;gap:2px}
+.arrow{text-align:center;font-size:16px;color:var(--ink-4);line-height:1}
+.step{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:#f7f8fa;border-radius:8px;border-left:3px solid}
+.stepCat{font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;white-space:nowrap;flex-shrink:0;margin-top:1px}
+.stepText{font-size:15px;color:var(--ink-2);line-height:1.45}
+.btnRow{display:flex;align-items:center;gap:12px;margin-top:4px}
+.nextBtn{background:var(--teal-mid);color:#fff;border:none;border-radius:8px;padding:10px 18px;font-family:var(--font-sans);font-size:15px;font-weight:600;cursor:pointer;transition:all .2s}
+.nextBtn:hover{background:var(--teal-deep)}
+.resetBtn{background:transparent;border:1px solid var(--line);border-radius:8px;padding:10px 18px;font-size:15px;color:var(--ink-3);cursor:pointer}
+.counter{font-family:var(--font-mono);font-size:14px;color:var(--ink-4);margin-left:auto}

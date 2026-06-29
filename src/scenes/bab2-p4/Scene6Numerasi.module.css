@@ -1,0 +1,21 @@
+.prompt{font-size:22px;font-weight:600;color:var(--ink);line-height:1.5;letter-spacing:-.01em;margin-bottom:8px}
+.prompt em{color:var(--teal-mid);font-style:normal}
+.main{flex:1;display:grid;grid-template-columns:1.4fr 1fr;gap:18px;min-height:0}
+.graphWrap{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-lg);padding:12px;min-height:0;display:flex;flex-direction:column;gap:4px}
+.calcPanel{display:flex;flex-direction:column;gap:8px;overflow:auto}
+.calcStep{padding:12px 14px;background:var(--surface-2);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;gap:6px}
+.stepHead{display:flex;align-items:center;gap:8px;font-size:16px;font-weight:600;color:var(--ink)}
+.badge{width:22px;height:22px;border-radius:50%;background:var(--teal-mid);color:#fff;font-family:var(--font-mono);font-size:12px;font-weight:600;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.vals{display:flex;gap:8px}
+.val{display:flex;flex-direction:column;gap:2px;padding:8px 12px;background:var(--teal-cream);border-radius:7px;flex:1}
+.valNum{font-family:var(--font-mono);font-size:24px;color:var(--teal-mid);font-weight:500}
+.valLbl{font-size:12px;color:var(--ink-2)}
+.formula{font-family:var(--font-mono);font-size:13.5px;color:var(--ink-2);padding:6px 10px;background:#f7f8fa;border-radius:6px}
+.formula b{color:var(--teal-mid)}
+.answer{display:flex;align-items:baseline;gap:8px;padding:8px 12px;background:var(--teal-cream);border-radius:7px}
+.ansVal{font-family:var(--font-mono);font-size:26px;color:var(--teal-mid);font-weight:500}
+.ansLbl{font-size:14px;color:var(--ink-2)}
+.note{font-size:14px;color:var(--ink-2);line-height:1.6;padding:9px 11px;background:#fefaf0;border-left:2px solid #d8c39a;border-radius:6px}
+.note b{color:var(--teal-mid)}
+.nextBtn{background:var(--teal-mid);color:#fff;border:none;border-radius:8px;padding:9px 16px;font-family:var(--font-sans);font-size:15px;font-weight:600;cursor:pointer;transition:all .2s;align-self:flex-start}
+.nextBtn:hover{background:var(--teal-deep)}

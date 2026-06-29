@@ -1,0 +1,22 @@
+.wrap{display:flex;flex-direction:column;height:100%}
+.prompt{font-size:22px;font-weight:600;color:var(--ink);line-height:1.5;margin-bottom:10px}
+.prompt em{color:var(--teal-mid);font-style:normal}
+.main{flex:1;display:grid;grid-template-columns:180px 1fr;gap:16px;min-height:0}
+.tabs{display:flex;flex-direction:column;gap:6px}
+.tab,.tabActive{padding:12px 14px;border-radius:10px;border:2px solid var(--line);cursor:pointer;display:flex;align-items:center;gap:9px;transition:all .15s}
+.tab{background:var(--surface-2)}
+.tab:hover{border-color:var(--teal-soft)}
+.tabActive{background:var(--kcolor,var(--teal-mid));border-color:var(--kcolor,var(--teal-mid));color:#fff}
+.tabIcon{font-size:20px}
+.tabName{font-size:15px;font-weight:600}
+.detail{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}
+.header{padding:16px 20px;display:flex;align-items:center;gap:12px}
+.hIcon{font-size:28px}
+.hName{font-size:24px;font-weight:700;color:#fff}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:0;flex:1}
+.section{padding:16px 18px;border-right:1px solid var(--line)}
+.section:last-child{border-right:none}
+.secTitle{font-size:14px;font-weight:700;color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+.secItem{font-size:15px;color:var(--ink-2);padding:4px 0;line-height:1.4}
+.peran{padding:14px 18px;background:var(--teal-cream);border-top:1px solid var(--line);font-size:15px;color:var(--ink-2);line-height:1.5}
+.peranLabel{font-weight:600;color:var(--teal-mid)}
