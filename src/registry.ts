@@ -104,6 +104,9 @@ import { bab2p7v2Scenes } from './scenes/bab2-p7-v2'
 import { bab3p1v2Scenes } from './scenes/bab3-p1-v2'
 import { bab3p3v2Scenes } from './scenes/bab3-p3-v2'
 import { bab3p5v2Scenes } from './scenes/bab3-p5-v2'
+import { bab4p1v2Scenes } from './scenes/bab4-p1-v2'
+import { bab4p2v2Scenes } from './scenes/bab4-p2-v2'
+import { bab4p3v2Scenes } from './scenes/bab4-p3-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -168,8 +171,11 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab3-p5-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:5, judul:'Pemuaian — Discovery Edition', scenes:bab3p5v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab3-p5', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab3-p6', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:6, judul:'Kalkulator ΔL & Kontekstual', scenes:bab3p6Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p1', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:1, judul:'Jarak & Perpindahan — skalar vs vektor',            scenes:bab4p1Scenes, updatedAt:'2026-06-18' },
+  { id:'ipa-vii-bab4-p1-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:1, judul:'Jarak & Perpindahan — Discovery Edition', scenes:bab4p1v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab4-p1', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p2', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:2, judul:'GLB & Grafik s-t — kecepatan dari kemiringan',      scenes:bab4p2Scenes, updatedAt:'2026-06-19' },
+  { id:'ipa-vii-bab4-p2-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:2, judul:'GLB & Grafik s-t — Discovery Edition', scenes:bab4p2v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab4-p2', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p3', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:3, judul:'GLBB & Grafik v-t — percepatan, luas & persamaan',   scenes:bab4p3Scenes, updatedAt:'2026-06-20' },
+  { id:'ipa-vii-bab4-p3-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:3, judul:'GLBB & Grafik v-t — Discovery Edition', scenes:bab4p3v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab4-p3', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p4', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:4, judul:'Kalkulator GLBB', scenes:bab4p4Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p5', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:5, judul:'FBD & Resultan Gaya', scenes:bab4p5Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p6', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:6, judul:'Newton I & II — F=ma', scenes:bab4p6Scenes, updatedAt:'2026-06-30' },

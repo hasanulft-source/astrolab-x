@@ -1,0 +1,12 @@
+.brakeViz{display:flex;flex-direction:column;align-items:center;gap:14px}
+.brakeIcon{font-size:36px}
+.brakeMarks{display:flex;flex-direction:column;gap:6px;width:100%}
+.markBox{font-size:13px;color:var(--discovery-ink-2);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 12px;text-align:center}
+.brakeNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:8px}
+.infoBox{display:flex;flex-direction:column;gap:7px}
+.infoRow{display:flex;justify-content:space-between;padding:11px 14px;background:var(--surface);border:1px solid var(--line);border-radius:9px;font-size:14px}
+.infoRow span{color:var(--discovery-ink-3)}
+.infoRow strong{font-family:var(--mono);font-size:16px;color:var(--discovery-primary)}
+.chartCenter{display:flex;flex-direction:column;align-items:center;gap:10px;justify-content:center}
+.glbChart{width:100%;max-width:280px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px}
+.slopeNote{font-size:13px;color:var(--discovery-ink-3)}

@@ -1,0 +1,12 @@
+.carRow{display:flex;gap:12px;width:100%}
+.carCard{flex:1;display:flex;flex-direction:column;align-items:center;gap:7px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 10px;text-align:center}
+.carCard span:first-child{font-size:30px}
+.carCard span:nth-child(2){font-weight:700;font-size:14px;color:var(--discovery-ink)}
+.carNote{font-size:11.5px;color:var(--discovery-ink-3)}
+.tableBox{display:flex;flex-direction:column;gap:5px}
+.tRow{display:flex;justify-content:space-between;padding:8px 13px;background:var(--surface);border:1px solid var(--line);border-radius:7px;font-size:13px}
+.tRow span{color:var(--discovery-ink-3);font-family:var(--mono)}
+.tRow strong{font-family:var(--mono);color:var(--discovery-primary)}
+.chartCenter{display:flex;flex-direction:column;align-items:center;gap:10px;justify-content:center}
+.glbChart{width:100%;max-width:280px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px}
+.slopeNote{font-size:13px;color:var(--discovery-ink-3)}
