@@ -1,0 +1,38 @@
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%}
+.item{display:flex;flex-direction:column;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+.emoji{font-size:26px}
+.iteks{font-size:13.5px;color:var(--discovery-ink-2);line-height:1.4}
+.cabangGrid{display:flex;flex-direction:column;gap:8px}
+.cabangBtn{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:15px;font-weight:600;padding:12px 16px;cursor:pointer;transition:all .15s;text-align:left}
+.cabangBtn:hover{border-color:var(--discovery-primary)}
+.cabangOn{border-color:var(--discovery-primary);background:#eaf4f3;color:var(--discovery-ink)}
+.cabangSeen{border-color:var(--discovery-primary);opacity:.7}
+.cbIcon{font-size:20px}
+.detailPanel{display:flex;align-items:center;justify-content:center}
+.detailCard{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;width:100%}
+.detailIcon{font-size:48px}
+.detailNama{font-size:24px;font-weight:700;color:var(--discovery-ink)}
+.detailObj{font-size:15px;color:var(--discovery-ink-2)}
+.detailObj strong{color:var(--discovery-primary)}
+.detailContoh{background:#eaf4f3;border-radius:10px;padding:14px 16px;width:100%;display:flex;flex-direction:column;gap:5px}
+.contohLabel{font-size:11.5px;font-weight:600;color:var(--discovery-ink-3);text-transform:uppercase;letter-spacing:.06em}
+.contohTeks{font-size:16px;color:var(--discovery-ink);font-style:italic}
+.detailEmpty{font-size:15px;color:var(--discovery-ink-3);font-style:italic}
+.stepsViz{display:flex;flex-direction:column;align-items:center;gap:0;overflow-y:auto;padding:8px 0}
+.stepNode{display:flex;flex-direction:column;align-items:center;gap:3px;opacity:.3;transition:all .3s}
+.stepActive{opacity:1}
+.stepCurrent{transform:scale(1.04)}
+.stepNo{font-family:var(--mono);font-size:11px;color:var(--discovery-ink-3)}
+.stepIcon{font-size:22px}
+.stepLabel{font-size:12.5px;font-weight:600;color:var(--discovery-ink-2);text-align:center}
+.stepArrow{font-size:14px;color:var(--line);margin:1px 0;transition:color .3s}
+.arrowActive{color:var(--discovery-primary)}
+.activeStep{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.asIcon{font-size:32px}
+.asLabel{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.asKet{font-size:15.5px;color:var(--discovery-ink-2);line-height:1.6}
+.refleksiCard{display:flex;flex-direction:column;gap:14px}
+.rPoint{display:flex;gap:14px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.rPoint span{font-size:22px;flex-shrink:0}
+.rPoint div{font-size:15.5px;color:var(--discovery-ink-2);line-height:1.6}
+.rPoint strong{color:var(--discovery-ink)}

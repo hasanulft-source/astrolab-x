@@ -1,0 +1,24 @@
+.eggViz{display:flex;gap:32px;align-items:flex-end;justify-content:center;height:160px}
+.glass{position:relative;width:70px;height:130px;display:flex;flex-direction:column;align-items:center}
+.water{position:absolute;bottom:0;left:0;right:0;height:80%;background:#bfdbfe;border-radius:0 0 8px 8px;opacity:.6}
+.egg{position:absolute;font-size:28px;transition:bottom .5s ease;z-index:1}
+.glassLabel{position:absolute;bottom:-22px;font-size:12px;color:var(--discovery-ink-3);white-space:nowrap}
+.statusBox{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:11px;border:1px solid;margin-top:4px}
+.vizPanel{display:flex;flex-direction:column;align-items:center;gap:18px;justify-content:center}
+.glassLarge{position:relative;width:90px;height:200px;background:#f0f9ff;border:2px solid #bae6fd;border-radius:8px;overflow:hidden}
+.waterLarge{position:absolute;bottom:0;left:0;right:0;height:80%;background:#bfdbfe;transition:opacity .3s}
+.eggLarge{position:absolute;left:50%;transform:translateX(-50%);font-size:36px;z-index:1}
+.rhoDivider{display:flex;flex-direction:column;gap:7px;width:100%}
+.rhoRow{display:flex;justify-content:space-between;align-items:center;padding:9px 14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:14px}
+.rhoRow span{color:var(--discovery-ink-2)}
+.rhoRow strong{font-family:var(--mono)}
+.varPanel{display:flex;flex-direction:column;gap:12px;overflow-y:auto}
+.varTabs{display:flex;gap:8px}
+.varTab{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:13px;font-weight:600;padding:9px 6px;cursor:pointer;transition:all .15s}
+.varTab:hover{border-color:var(--discovery-primary)}
+.varTabOn{background:#eaf4f3;border-color:var(--discovery-primary);color:var(--discovery-ink)}
+.varDetail{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:9px}
+.varTipe{font-size:18px;font-weight:700;color:var(--discovery-ink)}
+.varDef{font-size:15px;color:var(--discovery-ink-2);line-height:1.55}
+.varContoh{font-size:14px;color:var(--discovery-ink-3);padding:10px 13px;background:#eaf4f3;border-radius:9px}
+.varContoh span{font-weight:600;color:var(--discovery-primary);display:block;margin-bottom:3px}
