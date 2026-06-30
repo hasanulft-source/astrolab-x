@@ -89,8 +89,11 @@ import { bab6p5Scenes } from './scenes/bab6-p5'
 import { bab6p7Scenes } from './scenes/bab6-p7'
 import { bab7p5Scenes } from './scenes/bab7-p5'
 import { bab7p7Scenes } from './scenes/bab7-p7'
+import { bab3p4v2Scenes } from './scenes/bab3-p4-v2'
 
 export interface SimEntry {
+  isDiscovery?: boolean
+  classicId?: string
   id: string; mapel: string; kelas: string
   babId: string; babTitle: string; babOrder: number
   pertemuan: number; judul: string; scenes: Scene[]; updatedAt: string
@@ -133,6 +136,7 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab3-p2', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:2, judul:'Suhu Campuran', scenes:bab3p2Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab3-p3', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:3, judul:'Perpindahan Kalor — konduksi, konveksi, radiasi',   scenes:bab3p3Scenes, updatedAt:'2026-06-15' },
   { id:'ipa-vii-bab3-p4', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:4, judul:'Kalor — Q=mcΔT & kalor jenis',                 scenes:bab3p4Scenes, updatedAt:'2026-06-16' },
+    { id:'ipa-vii-bab3-p4-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:4, judul:'Kalor & Kalor Jenis — Discovery Edition', scenes:bab3p4v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab3-p4', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab3-p5', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:5, judul:'Pemuaian — padat/cair/gas & ΔL=L₀αΔT', scenes:bab3p5Scenes, updatedAt:'2026-06-17' },
   { id:'ipa-vii-bab3-p6', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:6, judul:'Kalkulator ΔL & Kontekstual', scenes:bab3p6Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p1', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:1, judul:'Jarak & Perpindahan — skalar vs vektor',            scenes:bab4p1Scenes, updatedAt:'2026-06-18' },

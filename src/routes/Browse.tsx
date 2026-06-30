@@ -32,7 +32,7 @@ export function Browse() {
             </div>
             <div className={styles.grid}>
               {bab.sims.map(sim => (
-                <Link key={sim.id} to={`/sim/${sim.id}`} className={styles.card}>
+                <Link key={sim.id} to={sim.isDiscovery ? `/discovery/${sim.id}` : `/sim/${sim.id}`} className={`${styles.card} ${sim.isDiscovery ? styles.cardDiscovery : ''}`} style={{position:'relative'}}>
                   <div className={styles.tile} style={{ background: `var(--${sim.babId}-bg)`, color: `var(--${sim.babId}-fg)` }}>
                     <BabIcon babId={sim.babId} />
                   </div>
@@ -40,6 +40,7 @@ export function Browse() {
                     <div className={styles.cardMeta}>Pertemuan {sim.pertemuan} · {sim.scenes.length} scene</div>
                     <div className={styles.cardTitle}>{sim.judul.split(' — ')[0]}</div>
                   </div>
+                  {sim.isDiscovery && <div className={styles.discoveryBadge}>Discovery</div>}
                   <span className={styles.chev}>›</span>
                 </Link>
               ))}

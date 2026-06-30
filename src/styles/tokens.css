@@ -35,6 +35,10 @@
   --infbab3-bg:#fcefdc; --infbab3-fg:#c47d1a;
   --infbab4-bg:#efe7f9; --infbab4-fg:#7c4dbb;
   --infbab5-bg:#e2eef5; --infbab5-fg:#2b7fa8;
+  --discovery-bg:#f2f4f6; --discovery-surface:#ffffff; --discovery-card:#f7f8fa;
+  --discovery-border:#e2e6ea; --discovery-glow:rgba(13,107,122,.12);
+  --discovery-primary:#0d6b7a; --discovery-amber:#d97706; --discovery-rose:#e11d48;
+  --discovery-ink:#1a1c1e; --discovery-ink-2:#3a3d42; --discovery-ink-3:#6b7280;
   --ease:cubic-bezier(.4,0,.2,1);
 }
 body{font-weight:500;text-rendering:optimizeLegibility}

@@ -7,7 +7,7 @@ import styles from './Dashboard.module.css'
 
 function SimRow({ sim }: { sim: SimEntry }) {
   return (
-    <Link to={`/sim/${sim.id}`} className={styles.card}>
+    <Link to={sim.isDiscovery ? `/discovery/${sim.id}` : `/sim/${sim.id}`} className={styles.card}>
       <div className={styles.tile} style={{ background: `var(--${sim.babId}-bg)`, color: `var(--${sim.babId}-fg)` }}>
         <BabIcon babId={sim.babId} />
       </div>
@@ -56,7 +56,7 @@ export function Dashboard() {
             </div>
 
             {cont && (
-              <Link to={`/sim/${cont.id}`} className={styles.continue}>
+              <Link to={cont.isDiscovery ? `/discovery/${cont.id}` : `/sim/${cont.id}`} className={styles.continue}>
                 <div className={styles.contTile} style={{ background: `var(--${cont.babId}-bg)`, color: `var(--${cont.babId}-fg)` }}>
                   <BabIcon babId={cont.babId} size={28} />
                 </div>
