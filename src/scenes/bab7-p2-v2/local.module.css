@@ -1,0 +1,8 @@
+.seasonViz{display:flex;flex-direction:column;gap:8px;width:100%}
+.seasonCard{font-size:14px;color:var(--discovery-ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:11px 14px;text-align:center}
+.musimBox{font-size:15px;font-weight:700;color:var(--discovery-primary);background:#eaf4f3;border-radius:10px;padding:12px 16px;text-align:center}
+.orbitViz{position:relative;width:220px;height:220px;display:flex;align-items:center;justify-content:center}
+.sunCenter{font-size:36px;position:absolute}
+.earthOrbit{position:absolute;width:200px;height:200px;transition:transform .25s linear}
+.earthTilted{position:absolute;top:0;left:50%;transform:translateX(-50%);font-size:24px}
+.tiltNote{position:absolute;bottom:-10px;font-size:11px;color:var(--discovery-ink-3);text-align:center;width:240px}

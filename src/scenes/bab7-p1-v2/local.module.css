@@ -1,0 +1,17 @@
+.sizeCompare{display:flex;align-items:center;justify-content:center;gap:16px}
+.sunDot{font-size:90px}
+.earthDot{font-size:14px}
+.sizeNote{font-size:13px;color:var(--discovery-ink-3);text-align:center;margin-top:14px}
+.planetGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.pBtn{background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:13.5px;font-weight:600;padding:11px 10px;cursor:pointer;transition:all .15s}
+.pBtn:hover{border-color:var(--discovery-primary)}
+.pOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.pSeen{opacity:.65}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.pDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 20px;width:100%}
+.pdIcon{font-size:38px}
+.pdNama{font-size:20px;font-weight:700;color:var(--discovery-ink)}
+.pdJarak{font-size:13.5px;color:var(--discovery-ink-3)}
+.pdJarak strong{color:var(--discovery-primary)}
+.pdKet{font-size:14px;color:var(--discovery-ink-2);line-height:1.5}
+.pdTipe{font-size:12px;font-weight:600;padding:6px 12px;border-radius:8px;width:100%}
