@@ -107,6 +107,10 @@ import { bab3p5v2Scenes } from './scenes/bab3-p5-v2'
 import { bab4p1v2Scenes } from './scenes/bab4-p1-v2'
 import { bab4p2v2Scenes } from './scenes/bab4-p2-v2'
 import { bab4p3v2Scenes } from './scenes/bab4-p3-v2'
+import { bab5p1v2Scenes } from './scenes/bab5-p1-v2'
+import { bab5p2v2Scenes } from './scenes/bab5-p2-v2'
+import { bab5p3v2Scenes } from './scenes/bab5-p3-v2'
+import { bab5p4v2Scenes } from './scenes/bab5-p4-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -181,9 +185,13 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab4-p6', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:6, judul:'Newton I & II — F=ma', scenes:bab4p6Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab4-p7', mapel:'IPA', kelas:'VII', babId:'bab4', babTitle:BAB4, babOrder:4, pertemuan:7, judul:'Newton III — Aksi Reaksi', scenes:bab4p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab5-p1', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:1, judul:'Ciri-Ciri Makhluk Hidup — hidup atau benda mati?', scenes:bab5p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab5-p1-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:1, judul:'Ciri Makhluk Hidup — Discovery Edition', scenes:bab5p1v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab5-p1', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab5-p2', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:3, judul:'Klasifikasi & Takson — mengelompokkan makhluk hidup', scenes:bab5p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab5-p2-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:3, judul:'Klasifikasi & Takson — Discovery Edition', scenes:bab5p2v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab5-p2', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab5-p3', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:5, judul:'Jelajah 5 Kingdom — Monera hingga Animalia', scenes:bab5p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab5-p3-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:5, judul:'5 Kingdom — Discovery Edition', scenes:bab5p3v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab5-p3', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab5-p4', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:7, judul:'Kunci Dikotomi — identifikasi makhluk hidup', scenes:bab5p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab5-p4-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:7, judul:'Kunci Dikotomi — Discovery Edition', scenes:bab5p4v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab5-p4', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab5-p7', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:8, judul:'Kunci Dikotomi Interaktif', scenes:bab5p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p1', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:1, judul:'Komponen & Organisasi Ekosistem', scenes:bab6p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab6-p2', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:3, judul:'Interaksi & Simbiosis', scenes:bab6p2Scenes, updatedAt:'2026-06-21' },
