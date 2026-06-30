@@ -1,0 +1,22 @@
+.jarViz{display:flex;flex-direction:column;align-items:center;gap:10px}
+.jarLid{font-size:60px}
+.jarArrow{font-size:13px;color:var(--discovery-ink-3)}
+.jarOpen{font-size:16px;font-weight:700;color:var(--discovery-primary)}
+.panjangBox{display:flex;align-items:center;gap:10px;padding:12px 16px;background:var(--surface);border:1px solid var(--line);border-radius:9px;font-size:14px;color:var(--discovery-ink-2)}
+.panjangBox strong{font-family:var(--mono);font-size:18px;color:var(--discovery-primary)}
+.barViz{display:flex;flex-direction:column;gap:14px;justify-content:center}
+.barTrack{width:240px;height:28px;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;position:relative}
+.barFill{height:100%;background:var(--discovery-primary);border-radius:14px;transition:width .3s ease}
+.barLabel{font-family:var(--mono);font-size:14px;color:var(--discovery-ink);text-align:center}
+.wujudTabs{display:flex;gap:8px}
+.wujudTab{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:11px 8px;cursor:pointer;transition:all .15s}
+.wujudTab:hover{border-color:var(--discovery-primary)}
+.wujudTabOn{background:#eaf4f3;border-color:var(--discovery-primary);color:var(--discovery-ink)}
+.wujudSeen{opacity:.7}
+.detailPanel{display:flex;align-items:center;justify-content:center}
+.wujudDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;width:100%}
+.wdIcon{font-size:36px}
+.wdNama{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.wdTingkat{font-size:14px;color:var(--discovery-ink-2)}
+.wdTingkat strong{color:var(--discovery-primary)}
+.wdKet{font-size:14px;color:var(--discovery-ink-2);line-height:1.55}
