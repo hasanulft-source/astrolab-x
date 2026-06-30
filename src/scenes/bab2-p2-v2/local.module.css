@@ -1,0 +1,16 @@
+.syringeRow{display:flex;gap:14px;width:100%}
+.syringeCard{flex:1;display:flex;flex-direction:column;gap:8px;align-items:center}
+.syringeLabel{font-size:12px;font-weight:600;color:var(--discovery-ink-2);text-align:center}
+.syringeBody{width:100%;height:30px;background:var(--surface-2);border:1px solid var(--line);border-radius:6px;display:flex;align-items:center;padding:3px}
+.plunger{height:100%;background:var(--discovery-primary);border-radius:4px;transition:width .3s}
+.syringeResult{font-size:11.5px;color:var(--discovery-ink-3);text-align:center}
+.mediumTabs{display:flex;gap:8px}
+.mediumTab{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:9px;cursor:pointer;text-transform:capitalize;transition:all .15s}
+.mediumTab:hover{border-color:var(--discovery-primary)}
+.mediumTabOn{background:#eaf4f3;border-color:var(--discovery-primary);color:var(--discovery-ink)}
+.compressResult{display:flex;align-items:center;gap:8px;padding:11px 14px;background:var(--surface);border:1px solid var(--line);border-radius:9px;font-size:14px;color:var(--discovery-ink-2)}
+.compressResult strong{font-family:var(--mono);font-size:16px}
+.vizCenter{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}
+.compressBox{position:relative;width:200px;height:200px;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.cParticle{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--discovery-primary);transform:translate(-50%,-50%);transition:all .3s}
+.gapLabel{font-size:13px;color:var(--discovery-ink-3)}

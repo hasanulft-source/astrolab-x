@@ -1,0 +1,6 @@
+.previewChart{width:100%;max-width:260px}
+.previewCaption{font-size:13px;color:var(--discovery-ink-3);text-align:center;margin-top:8px}
+.tempReadout{display:flex;align-items:center;gap:10px;padding:11px 14px;background:var(--surface);border:1px solid var(--line);border-radius:9px;font-size:14px;color:var(--discovery-ink-2)}
+.tempReadout strong{font-family:var(--mono);font-size:20px;color:var(--discovery-primary)}
+.chartPanel{display:flex;align-items:center;justify-content:center}
+.liveChart{width:100%;max-width:300px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px}

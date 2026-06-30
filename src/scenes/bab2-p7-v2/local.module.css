@@ -1,0 +1,11 @@
+.shipViz{position:relative;width:100%;height:140px;background:linear-gradient(to bottom,#e0f2fe 0%,#bfdbfe 60%,#93c5fd 100%);border-radius:14px;overflow:hidden}
+.water2{position:absolute;bottom:0;left:0;right:0;height:50%}
+.ship{position:absolute;font-size:42px;left:20%;bottom:38%}
+.coin{position:absolute;font-size:20px;right:25%;bottom:8%}
+.shipCaption{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:8px}
+.rhoBox{display:flex;flex-direction:column;gap:5px;padding:13px 16px;border-radius:11px;border:1px solid;font-family:var(--mono);font-size:14px}
+.rhoBox strong{font-size:16px;font-weight:700}
+.tankViz{display:flex;align-items:center;justify-content:center}
+.tank{position:relative;width:200px;height:220px;background:#f0f9ff;border:2px solid #bae6fd;border-radius:8px;overflow:hidden}
+.waterTank{position:absolute;bottom:0;left:0;right:0;height:85%;background:#bfdbfe;opacity:.6}
+.objBox{position:absolute;left:50%;transform:translateX(-50%);background:#64748b;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-family:var(--mono);transition:bottom .4s ease,width .3s,height .3s}

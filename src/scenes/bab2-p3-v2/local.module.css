@@ -1,0 +1,18 @@
+.iceTrack{display:flex;align-items:center;gap:10px;width:100%}
+.iceStage{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 8px}
+.iceStage span:first-child{font-size:26px}
+.iceStage span:last-child{font-size:11.5px;color:var(--discovery-ink-2);text-align:center}
+.iceArrow{font-size:16px;color:var(--discovery-ink-3)}
+.changeGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.changeBtn{display:flex;flex-direction:column;align-items:center;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:11px 8px;cursor:pointer;transition:all .15s}
+.changeBtn:hover{border-color:var(--discovery-primary)}
+.changeBtn span:first-child{font-size:18px}
+.changeOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.changeSeen{opacity:.65}
+.changeNama{font-size:12.5px;font-weight:600;color:var(--discovery-ink-2)}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.changeDetail{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;width:100%}
+.cdIcons{font-size:32px}
+.cdNama{font-size:20px;font-weight:700;color:var(--discovery-ink)}
+.cdContoh{font-size:14.5px;color:var(--discovery-ink-2)}
+.cdKalor{font-size:13.5px;font-weight:600;padding:8px 14px;border-radius:9px}

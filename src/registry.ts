@@ -95,6 +95,12 @@ import { bab1p3v2Scenes } from './scenes/bab1-p3-v2'
 import { bab1p4v2Scenes } from './scenes/bab1-p4-v2'
 import { bab1p5v2Scenes } from './scenes/bab1-p5-v2'
 import { bab1p7v2Scenes } from './scenes/bab1-p7-v2'
+import { bab2p1v2Scenes } from './scenes/bab2-p1-v2'
+import { bab2p2v2Scenes } from './scenes/bab2-p2-v2'
+import { bab2p3v2Scenes } from './scenes/bab2-p3-v2'
+import { bab2p4v2Scenes } from './scenes/bab2-p4-v2'
+import { bab2p5v2Scenes } from './scenes/bab2-p5-v2'
+import { bab2p7v2Scenes } from './scenes/bab2-p7-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -136,12 +142,18 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab1-p7', mapel:'IPA', kelas:'VII', babId:'bab1', babTitle:BAB1, babOrder:1, pertemuan:7, judul:'Pengukuran — Baca skala, presisi & akurasi',       scenes:bab1p7Scenes, updatedAt:'2026-06-08' },
   { id:'ipa-vii-bab1-p7-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab1', babTitle:BAB1, babOrder:1, pertemuan:7, judul:'Pengukuran — Discovery Edition', scenes:bab1p7v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab1-p7', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p1', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:1, judul:'Wujud Zat & Model Partikel',                            scenes:bab2p1Scenes, updatedAt:'2026-06-01' },
+  { id:'ipa-vii-bab2-p1-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:1, judul:'Wujud Zat & Model Partikel — Discovery Edition', scenes:bab2p1v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab2-p1', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p2', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:2, judul:'Sifat Fisik & Kemampatan Zat',                          scenes:bab2p2Scenes, updatedAt:'2026-06-09' },
+  { id:'ipa-vii-bab2-p2-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:2, judul:'Sifat Fisik & Kemampatan — Discovery Edition', scenes:bab2p2v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab2-p2', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p3', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:3, judul:'Perubahan Wujud Zat — 6 perubahan & kalor',        scenes:bab2p3Scenes, updatedAt:'2026-06-10' },
+  { id:'ipa-vii-bab2-p3-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:3, judul:'Perubahan Wujud Zat — Discovery Edition', scenes:bab2p3v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab2-p3', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p4', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:4, judul:'Grafik Pemanasan — plateau & titik didih',         scenes:bab2p4Scenes, updatedAt:'2026-06-11' },
+  { id:'ipa-vii-bab2-p4-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:4, judul:'Grafik Pemanasan — Discovery Edition', scenes:bab2p4v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab2-p4', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p5', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:5, judul:'Perubahan Fisika & Kimia — 4 tanda & klasifikasi',  scenes:bab2p5Scenes, updatedAt:'2026-06-12' },
+  { id:'ipa-vii-bab2-p5-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:5, judul:'Perubahan Fisika & Kimia — Discovery Edition', scenes:bab2p5v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab2-p5', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p6', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:6, judul:'Praktikum Perubahan Kimia', scenes:bab2p6Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab2-p7', mapel:'IPA', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:7, judul:'Massa Jenis — ρ=m/V, apung & tenggelam',       scenes:bab2p7Scenes, updatedAt:'2026-06-13' },
+  { id:'ipa-vii-bab2-p7-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab2', babTitle:BAB2, babOrder:2, pertemuan:7, judul:'Massa Jenis — Discovery Edition', scenes:bab2p7v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab2-p7', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab3-p1', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:1, judul:'Suhu & Skala — Celsius, Fahrenheit, Kelvin, Reamur', scenes:bab3p1Scenes, updatedAt:'2026-06-14' },
   { id:'ipa-vii-bab3-p2', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:2, judul:'Suhu Campuran', scenes:bab3p2Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab3-p3', mapel:'IPA', kelas:'VII', babId:'bab3', babTitle:BAB3, babOrder:3, pertemuan:3, judul:'Perpindahan Kalor — konduksi, konveksi, radiasi',   scenes:bab3p3Scenes, updatedAt:'2026-06-15' },
