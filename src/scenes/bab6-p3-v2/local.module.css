@@ -1,0 +1,8 @@
+.chainViz{display:flex;align-items:center;gap:8px;font-size:30px;justify-content:center}
+.chainCaption{font-size:13px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.relList{display:flex;flex-direction:column;gap:5px;max-height:200px;overflow-y:auto}
+.relItem{font-size:13.5px;color:var(--discovery-ink-2);background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:8px 12px}
+.webViz{display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center}
+.webGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+.orgNode{background:var(--surface);border:1px solid var(--discovery-primary);border-radius:9px;padding:9px 8px;text-align:center;font-size:12px;font-weight:600;color:var(--discovery-ink)}
+.webHint{font-size:13px;color:var(--discovery-ink-3)}

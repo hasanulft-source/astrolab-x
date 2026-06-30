@@ -1,0 +1,13 @@
+.ecoViz{display:flex;gap:14px;justify-content:center;font-size:32px}
+.ecoNote{font-size:13px;color:var(--discovery-ink-3);text-align:center;margin-top:14px}
+.komponenGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.kBtn{background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:13.5px;font-weight:600;padding:11px 10px;cursor:pointer;transition:all .15s}
+.kBtn:hover{border-color:var(--discovery-primary)}
+.kOn{background:#eaf4f3}
+.kSeen{opacity:.65}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.kDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:2px solid;border-radius:16px;padding:22px 20px;width:100%}
+.kdTipe{font-size:11px;font-weight:700;letter-spacing:.06em}
+.kdIcon{font-size:34px}
+.kdNama{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.kdKet{font-size:14px;color:var(--discovery-ink-2);line-height:1.5}

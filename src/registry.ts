@@ -111,6 +111,11 @@ import { bab5p1v2Scenes } from './scenes/bab5-p1-v2'
 import { bab5p2v2Scenes } from './scenes/bab5-p2-v2'
 import { bab5p3v2Scenes } from './scenes/bab5-p3-v2'
 import { bab5p4v2Scenes } from './scenes/bab5-p4-v2'
+import { bab6p1v2Scenes } from './scenes/bab6-p1-v2'
+import { bab6p2v2Scenes } from './scenes/bab6-p2-v2'
+import { bab6p3v2Scenes } from './scenes/bab6-p3-v2'
+import { bab6p4v2Scenes } from './scenes/bab6-p4-v2'
+import { bab6p7v2Scenes } from './scenes/bab6-p7-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -194,11 +199,16 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab5-p4-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:7, judul:'Kunci Dikotomi — Discovery Edition', scenes:bab5p4v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab5-p4', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab5-p7', mapel:'IPA', kelas:'VII', babId:'bab5', babTitle:BAB5, babOrder:5, pertemuan:8, judul:'Kunci Dikotomi Interaktif', scenes:bab5p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p1', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:1, judul:'Komponen & Organisasi Ekosistem', scenes:bab6p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab6-p1-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:1, judul:'Komponen Ekosistem — Discovery Edition', scenes:bab6p1v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab6-p1', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p2', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:3, judul:'Interaksi & Simbiosis', scenes:bab6p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab6-p2-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:3, judul:'Interaksi & Simbiosis — Discovery Edition', scenes:bab6p2v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab6-p2', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p3', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:4, judul:'Rantai & Jaring-Jaring Makanan', scenes:bab6p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab6-p3-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:4, judul:'Jaring-Jaring Makanan — Discovery Edition', scenes:bab6p3v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab6-p3', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p4', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:5, judul:'Aliran Energi & Piramida Ekologi', scenes:bab6p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-vii-bab6-p4-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:5, judul:'Piramida Energi — Discovery Edition', scenes:bab6p4v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab6-p4', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p5', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:6, judul:'Kalkulator Piramida Energi', scenes:bab6p5Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab6-p7', mapel:'IPA', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:7, judul:'Cascade Effect & Keseimbangan', scenes:bab6p7Scenes, updatedAt:'2026-06-30' },
+  { id:'ipa-vii-bab6-p7-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab6', babTitle:BAB6, babOrder:6, pertemuan:7, judul:'Cascade Effect — Discovery Edition', scenes:bab6p7v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab6-p7', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab7-p1', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:1, judul:'Sistem Tata Surya — Matahari & Planet', scenes:bab7p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab7-p2', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:3, judul:'Rotasi & Revolusi Bumi', scenes:bab7p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-vii-bab7-p3', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:5, judul:'Fase Bulan & Gerhana', scenes:bab7p3Scenes, updatedAt:'2026-06-21' },

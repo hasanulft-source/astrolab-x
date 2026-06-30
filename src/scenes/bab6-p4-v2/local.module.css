@@ -1,0 +1,8 @@
+.pyraViz{display:flex;flex-direction:column-reverse;gap:4px;align-items:center;width:100%}
+.pLevel{background:var(--surface);border:1px solid var(--discovery-primary);border-radius:7px;padding:8px 12px;font-size:13px;font-weight:600;color:var(--discovery-ink);text-align:center}
+.flowList{display:flex;flex-direction:column;gap:6px}
+.flowItem{display:flex;justify-content:space-between;padding:9px 13px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:13.5px}
+.flowItem strong{font-family:var(--mono);color:var(--discovery-primary)}
+.pyramidViz{display:flex;flex-direction:column-reverse;gap:4px;align-items:center;justify-content:center}
+.pyLevel{background:var(--discovery-primary);border-radius:8px;padding:14px;text-align:center;font-size:22px;transition:all .3s}
+.lossNote{font-size:12.5px;color:var(--discovery-ink-3);margin-top:10px;text-align:center}
