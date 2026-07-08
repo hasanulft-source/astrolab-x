@@ -1,0 +1,12 @@
+.eggViz{display:flex;gap:12px;justify-content:center}
+.eggCup{display:flex;flex-direction:column;align-items:center;gap:5px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 12px}
+.eggCup span:first-child{font-size:26px}
+.eggCup span:nth-child(2){font-size:11px;color:var(--discovery-ink-3)}
+.eggSink{font-size:12px;font-weight:700;color:#dc2626}
+.eggFloat{font-size:12px;font-weight:700;color:#16a34a}
+.compareBox{display:flex;flex-direction:column;gap:5px;padding:13px 16px;border-radius:11px;border:1px solid;font-size:13.5px}
+.compareBox strong{font-size:15px;font-weight:700}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.jarViz{position:relative;width:120px;height:180px;background:#f0f9ff;border:2px solid #bae6fd;border-radius:8px;overflow:hidden}
+.jarWater{position:absolute;bottom:0;left:0;right:0;height:85%;background:#bfdbfe;opacity:.6}
+.eggInJar{position:absolute;left:50%;transform:translateX(-50%);font-size:22px;transition:bottom .3s ease}

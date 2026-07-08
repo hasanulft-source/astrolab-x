@@ -1,0 +1,13 @@
+.jackViz{display:flex;flex-direction:column;align-items:center;gap:6px}
+.jackCar{font-size:16px;color:var(--discovery-ink-2)}
+.jackArrow{font-size:20px;color:var(--discovery-primary)}
+.jackLever{font-size:14px;color:var(--discovery-ink-3)}
+.formulaBox{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:14px 16px;border-left:3px solid var(--discovery-primary)}
+.formulaText{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--discovery-ink)}
+.formulaCalc{font-family:var(--mono);font-size:13px;color:var(--discovery-ink-2)}
+.formulaCalc strong{color:var(--discovery-primary);font-size:15px}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.hydraulicViz{display:flex;align-items:flex-end;gap:6px}
+.pistonSmall{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 6px;font-size:11px;text-align:center}
+.hydraulicTube{width:40px;height:6px;background:var(--discovery-primary);border-radius:3px;opacity:.4}
+.pistonBig{background:var(--discovery-primary);color:#fff;border-radius:6px;padding:10px 4px;font-size:11px;text-align:center;transition:width .2s ease}

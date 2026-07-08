@@ -1,0 +1,12 @@
+.diveViz{display:flex;justify-content:center}
+.diveWater{width:100px;height:80px;background:linear-gradient(to bottom,#dbeafe,#3b82f6);border-radius:10px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:8px}
+.diverIcon{font-size:24px}
+.diveNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.formulaBox{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:14px 16px;border-left:3px solid var(--discovery-primary)}
+.formulaText{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--discovery-ink)}
+.formulaCalc{font-family:var(--mono);font-size:13px;color:var(--discovery-ink-2)}
+.formulaCalc strong{color:var(--discovery-primary);font-size:15px}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.waterColumn{position:relative;width:100px;height:200px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.waterLevel{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to bottom,#93c5fd,#1e40af);transition:height .2s ease}
+.depthMarker{position:absolute;left:50%;transform:translateX(-50%);font-size:20px;transition:top .2s ease}
