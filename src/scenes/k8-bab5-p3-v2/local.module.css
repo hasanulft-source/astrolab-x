@@ -1,0 +1,14 @@
+.strawViz{position:relative;width:80px;height:100px}
+.glassWater{position:absolute;bottom:0;left:0;right:0;height:60%;background:#bfdbfe;opacity:.5;border-radius:0 0 8px 8px}
+.strawBent{position:absolute;top:10px;left:20px;font-size:32px}
+.strawNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.modeTabs{display:flex;gap:8px}
+.mTab{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:11px 8px;cursor:pointer;transition:all .15s}
+.mTab:hover{border-color:var(--discovery-primary)}
+.mOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.explainBox{display:flex;flex-direction:column;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:14px 16px}
+.explainTitle{font-size:16px;font-weight:700;color:var(--discovery-ink)}
+.explainText{font-size:14px;color:var(--discovery-ink-2);line-height:1.55}
+.explainContoh{font-size:12.5px;color:var(--discovery-primary);font-weight:600}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.raySvg{width:100%;max-width:260px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px}

@@ -1,0 +1,21 @@
+.inkViz{display:flex;flex-direction:column;align-items:center;gap:8px}
+.inkDot{font-size:14px;color:var(--discovery-ink-2)}
+.inkArrow{font-size:12px;color:var(--discovery-ink-3)}
+.inkBands{display:flex;gap:4px}
+.inkBands span{width:30px;height:10px;border-radius:3px}
+.legendBox{display:flex;flex-direction:column;gap:6px}
+.legendItem{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--discovery-ink-2)}
+.legendItem span{width:14px;height:14px;border-radius:3px;flex-shrink:0}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.paperStrip{position:relative;width:60px;height:200px;background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.pigmentDot{position:absolute;left:50%;transform:translateX(-50%);width:16px;height:16px;border-radius:50%;transition:bottom .2s ease}
+.startLine{position:absolute;bottom:2px;left:0;right:0;text-align:center;font-size:9px;color:var(--discovery-ink-3)}
+.beforeBox,.afterBox{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:12px 14px}
+.mixLabel{font-size:11px;font-weight:700;color:var(--discovery-primary);text-transform:uppercase;margin-bottom:4px}
+.mixVisual{font-size:13.5px;color:var(--discovery-ink-2);line-height:1.5}
+.tubeViz{position:relative;width:70px;height:160px;background:var(--surface);border:2px solid var(--line);border-radius:0 0 30px 30px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;transition:transform .3s}
+.tubeSpin{animation:spin-settle .4s ease}
+@keyframes spin-settle{0%{transform:rotate(0)}50%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}
+.mixedContent{text-align:center;padding:60px 0;font-size:20px}
+.waterLayer{height:70%;display:flex;align-items:flex-start;justify-content:center;padding-top:10px;font-size:18px}
+.sandLayer{height:30%;background:#fef3c7;display:flex;align-items:center;justify-content:center;font-size:18px}

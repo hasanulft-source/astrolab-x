@@ -1,0 +1,23 @@
+.pondViz{position:relative;width:120px;height:120px;display:flex;align-items:center;justify-content:center}
+.rippleRing{position:absolute;width:60px;height:60px;border:2px solid var(--discovery-primary);border-radius:50%;opacity:.5}
+.rippleRing2{position:absolute;width:100px;height:100px;border:2px solid var(--discovery-primary);border-radius:50%;opacity:.25}
+.leafIcon{font-size:20px;z-index:1}
+.pondNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.paramGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.paramCard{display:flex;flex-direction:column;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:11px 13px}
+.paramCard span{font-size:11.5px;color:var(--discovery-ink-3)}
+.paramCard strong{font-family:var(--mono);font-size:17px;color:var(--discovery-primary)}
+.formulaNote{font-size:12.5px;color:var(--discovery-ink-3);font-style:italic}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.waveSvg{width:100%;max-width:280px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px}
+.jenisGrid{display:flex;flex-direction:column;gap:6px}
+.jBtn{background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;text-align:left;transition:all .15s}
+.jBtn:hover{border-color:var(--discovery-primary)}
+.jOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.jSeen{opacity:.7}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.jDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;width:100%}
+.jdNama{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.jdContoh{font-size:13.5px;color:var(--discovery-ink-3);background:#eaf4f3;border-radius:8px;padding:8px 12px;width:100%}
+.jdContoh span{font-weight:700;color:var(--discovery-primary);display:block;font-size:11px;text-transform:uppercase;margin-bottom:3px}
+.jdKet{font-size:14.5px;color:var(--discovery-ink-2);line-height:1.55}

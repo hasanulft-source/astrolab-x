@@ -155,6 +155,18 @@ import { k8bab4p1v2Scenes } from './scenes/k8-bab4-p1-v2'
 import { k8bab4p2v2Scenes } from './scenes/k8-bab4-p2-v2'
 import { k8bab4p3v2Scenes } from './scenes/k8-bab4-p3-v2'
 import { k8bab4p4v2Scenes } from './scenes/k8-bab4-p4-v2'
+import { k8bab5p1v2Scenes } from './scenes/k8-bab5-p1-v2'
+import { k8bab5p2v2Scenes } from './scenes/k8-bab5-p2-v2'
+import { k8bab5p3v2Scenes } from './scenes/k8-bab5-p3-v2'
+import { k8bab5p4v2Scenes } from './scenes/k8-bab5-p4-v2'
+import { k8bab6p1v2Scenes } from './scenes/k8-bab6-p1-v2'
+import { k8bab6p2v2Scenes } from './scenes/k8-bab6-p2-v2'
+import { k8bab6p3v2Scenes } from './scenes/k8-bab6-p3-v2'
+import { k8bab6p4v2Scenes } from './scenes/k8-bab6-p4-v2'
+import { k8bab7p1v2Scenes } from './scenes/k8-bab7-p1-v2'
+import { k8bab7p2v2Scenes } from './scenes/k8-bab7-p2-v2'
+import { k8bab7p3v2Scenes } from './scenes/k8-bab7-p3-v2'
+import { k8bab7p4v2Scenes } from './scenes/k8-bab7-p4-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -291,17 +303,29 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-viii-bab4-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab4', babTitle:K8BAB4, babOrder:4, pertemuan:4, judul:'Hukum Archimedes', scenes:k8bab4p4Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab4-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab4', babTitle:K8BAB4, babOrder:4, pertemuan:4, judul:'Hukum Archimedes — Discovery Edition', scenes:k8bab4p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab4-p4', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab5-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:1, judul:'Getaran & Gelombang', scenes:k8bab5p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab5-p1-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:1, judul:'Parameter & Jenis Gelombang — Discovery Edition', scenes:k8bab5p1v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab5-p1', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab5-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:2, judul:'Gelombang Bunyi', scenes:k8bab5p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab5-p2-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:2, judul:'Bunyi & Medium — Discovery Edition', scenes:k8bab5p2v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab5-p2', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab5-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:3, judul:'Pemantulan & Pembiasan', scenes:k8bab5p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab5-p3-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:3, judul:'Pemantulan & Pembiasan — Discovery Edition', scenes:k8bab5p3v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab5-p3', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab5-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:4, judul:'Cermin & Lensa', scenes:k8bab5p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab5-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab5', babTitle:K8BAB5, babOrder:5, pertemuan:4, judul:'Cermin & Lensa — Discovery Edition', scenes:k8bab5p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab5-p4', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab6-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:1, judul:'Campuran Homogen & Heterogen', scenes:k8bab6p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab6-p1-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:1, judul:'Homogen vs Heterogen — Discovery Edition', scenes:k8bab6p1v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab6-p1', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab6-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:2, judul:'Filtrasi & Distilasi', scenes:k8bab6p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab6-p2-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:2, judul:'Filtrasi & Distilasi — Discovery Edition', scenes:k8bab6p2v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab6-p2', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab6-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:3, judul:'Evaporasi, Kristalisasi & Sublimasi', scenes:k8bab6p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab6-p3-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:3, judul:'Evaporasi — Discovery Edition', scenes:k8bab6p3v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab6-p3', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab6-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:4, judul:'Kromatografi & Sentrifugasi', scenes:k8bab6p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab6-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab6', babTitle:K8BAB6, babOrder:6, pertemuan:4, judul:'Kromatografi & Sentrifugasi — Discovery Edition', scenes:k8bab6p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab6-p4', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab7-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:1, judul:'Komponen Tanah', scenes:k8bab7p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab7-p1-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:1, judul:'Komponen Tanah — Discovery Edition', scenes:k8bab7p1v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab7-p1', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab7-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:2, judul:'Profil & Lapisan Tanah', scenes:k8bab7p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab7-p2-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:2, judul:'Profil Tanah — Discovery Edition', scenes:k8bab7p2v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab7-p2', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab7-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:3, judul:'Tekstur & pH Tanah', scenes:k8bab7p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab7-p3-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:3, judul:'Tekstur & pH Tanah — Discovery Edition', scenes:k8bab7p3v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab7-p3', updatedAt:'2026-07-08' },
   { id:'ipa-viii-bab7-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:4, judul:'Degradasi & Konservasi Tanah', scenes:k8bab7p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab7-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:4, judul:'Erosi & Konservasi — Discovery Edition', scenes:k8bab7p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab7-p4', updatedAt:'2026-07-08' },
   { id:'inf-vii-bab1-p1', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:1, judul:'4 Pondasi Berpikir Komputasional', scenes:infbab1p1Scenes, updatedAt:'2026-06-21' },
   { id:'inf-vii-bab1-p1-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:1, judul:'4 Pondasi BK — Discovery Edition', scenes:infbab1p1v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab1-p1', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab1-p2', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:2, judul:'Dekomposisi & Pengenalan Pola', scenes:infbab1p2Scenes, updatedAt:'2026-06-21' },

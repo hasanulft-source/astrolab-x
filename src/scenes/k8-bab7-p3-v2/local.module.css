@@ -1,0 +1,24 @@
+.compareRow{display:flex;gap:12px;justify-content:center}
+.compareCard{display:flex;flex-direction:column;align-items:center;gap:5px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 12px}
+.compareCard span:first-child{font-size:26px}
+.compareCard span:nth-child(2){font-size:12.5px;font-weight:600;color:var(--discovery-ink)}
+.note{font-size:11px;color:var(--discovery-ink-3)}
+.teksturTabs{display:flex;gap:8px}
+.tBtn{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:11px 8px;cursor:pointer;transition:all .15s}
+.tBtn:hover{border-color:var(--discovery-primary)}
+.tOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.tSeen{opacity:.7}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.tDetail{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 20px;width:100%}
+.tdNama{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.tdUkuran{font-size:13.5px;color:var(--discovery-ink-2)}
+.tdUkuran strong{color:var(--discovery-primary)}
+.tdSifat{font-size:14px;color:var(--discovery-ink-2);line-height:1.5}
+.phBox{display:flex;flex-direction:column;gap:5px;padding:12px 16px;border-radius:11px;border:1px solid;font-size:13.5px;color:var(--discovery-ink-2)}
+.phBox strong{font-size:15px}
+.noteText{font-size:12.5px;color:var(--discovery-ink-3);line-height:1.5}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.phScale{width:100%;max-width:220px}
+.phBar{position:relative;height:24px;background:linear-gradient(to right,#dc2626,#16a34a,#3b82f6);border-radius:12px}
+.phIndicator{position:absolute;top:-4px;width:4px;height:32px;background:var(--discovery-ink);border-radius:2px;transition:left .2s ease}
+.phLabels{display:flex;justify-content:space-between;font-size:10.5px;color:var(--discovery-ink-3);margin-top:6px}

@@ -1,0 +1,19 @@
+.saltViz{display:flex;flex-direction:column;align-items:center;gap:6px}
+.saltStage{font-size:14px;color:var(--discovery-ink-2)}
+.saltArrow{font-size:12px;color:var(--discovery-ink-3)}
+.statusBox{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:11px 14px;font-size:14px;color:var(--discovery-ink-2)}
+.statusBox strong{color:var(--discovery-primary);font-family:var(--mono)}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.pondViz{position:relative;width:140px;height:120px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end}
+.pondWater{background:linear-gradient(to bottom,#93c5fd,#1e40af);transition:height .2s ease}
+.saltCrystals{position:absolute;bottom:4px;left:0;right:0;text-align:center;font-size:18px}
+.metodeTabs{display:flex;flex-direction:column;gap:6px}
+.mBtn{background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;text-align:left;transition:all .15s}
+.mBtn:hover{border-color:var(--discovery-primary)}
+.mOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.mSeen{opacity:.7}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.mDetail{display:flex;flex-direction:column;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;width:100%}
+.mdNama{font-size:19px;font-weight:700;color:var(--discovery-ink);text-align:center;margin-bottom:4px}
+.mdRow{border-left:3px solid var(--discovery-primary);padding-left:10px;font-size:14px;color:var(--discovery-ink-2)}
+.mdRow span{display:block;font-weight:700;color:var(--discovery-primary);font-size:11px;text-transform:uppercase;margin-bottom:2px}

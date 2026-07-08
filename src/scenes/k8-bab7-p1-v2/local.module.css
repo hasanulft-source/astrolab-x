@@ -1,0 +1,24 @@
+.soilViz{font-size:50px;text-align:center}
+.soilNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.hasilBox{display:flex;flex-direction:column;gap:6px}
+.hasilTitle{font-size:13.5px;font-weight:600;color:var(--discovery-ink);margin-bottom:2px}
+.hasilRow{display:flex;gap:8px;padding:9px 13px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--discovery-ink-2)}
+.hasilRow span{font-weight:700;color:var(--discovery-primary);min-width:90px}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.bottleViz{display:flex;align-items:center;justify-content:center}
+.bottleShaking{font-size:40px}
+.bottleLayers{display:flex;flex-direction:column-reverse;width:100px;border:2px solid var(--line);border-radius:0 0 20px 20px;overflow:hidden}
+.layerPasir{background:#d97706;padding:14px 4px;font-size:9px;color:#fff;text-align:center}
+.layerDebu{background:#a8a29e;padding:10px 4px;font-size:9px;color:#fff;text-align:center}
+.layerLiat{background:#78716c;padding:8px 4px;font-size:9px;color:#fff;text-align:center}
+.layerOrganik{background:#166534;padding:6px 4px;font-size:9px;color:#fff;text-align:center}
+.komponenGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.kBtn{background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:13.5px;font-weight:600;padding:11px 10px;cursor:pointer;transition:all .15s}
+.kBtn:hover{border-color:var(--discovery-primary)}
+.kOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.kSeen{opacity:.7}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.kDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;width:100%}
+.kdIcon{font-size:38px}
+.kdNama{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.kdPeran{font-size:14px;color:var(--discovery-ink-2);line-height:1.55}

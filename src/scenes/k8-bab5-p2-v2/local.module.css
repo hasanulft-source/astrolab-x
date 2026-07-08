@@ -1,0 +1,7 @@
+.spaceViz{display:flex;align-items:center;gap:14px;justify-content:center}
+.explosionIcon{font-size:36px}
+.muteIcon{font-size:28px}
+.spaceNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.noteBox{font-size:13px;color:var(--discovery-ink-2);background:#eaf4f3;border-radius:9px;padding:10px 14px;line-height:1.5}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.waveSvg{width:100%;max-width:280px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px}
