@@ -1,0 +1,19 @@
+.bottleViz{display:flex;flex-direction:column;align-items:center;gap:6px}
+.bottleTop{font-size:24px}
+.bottleBody{font-size:12px;color:var(--discovery-ink-3);padding:20px 24px;border:1px dashed var(--line);border-radius:8px}
+.bottleBottom{font-size:20px}
+.faseTabs{display:flex;gap:8px}
+.fTab{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:13.5px;font-weight:600;padding:11px 8px;cursor:pointer;transition:all .15s}
+.fTab:hover{border-color:var(--discovery-primary)}
+.fOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.stepBox{display:flex;flex-direction:column;gap:6px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 13px;font-size:13.5px;color:var(--discovery-ink-2)}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.diaphragmViz{display:flex;flex-direction:column;align-items:center;gap:10px}
+.chestBox{width:120px;background:var(--surface);border:2px solid var(--discovery-primary);border-radius:16px 16px 8px 8px;display:flex;align-items:center;justify-content:center;transition:height .3s ease}
+.lungShape{font-size:32px}
+.diaphragmLine{font-size:12px;color:var(--discovery-ink-3);transition:transform .3s ease;text-align:center}
+.compareDetail{display:flex;flex-direction:column;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 20px;width:100%}
+.cdTitle{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.cdText{font-size:14.5px;color:var(--discovery-ink-2);line-height:1.55}
+.cdWho{font-size:13px;color:var(--discovery-primary);font-weight:600}

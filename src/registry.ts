@@ -143,6 +143,10 @@ import { k8bab1p1v2Scenes } from './scenes/k8-bab1-p1-v2'
 import { k8bab1p2v2Scenes } from './scenes/k8-bab1-p2-v2'
 import { k8bab1p3v2Scenes } from './scenes/k8-bab1-p3-v2'
 import { k8bab1p4v2Scenes } from './scenes/k8-bab1-p4-v2'
+import { k8bab2p1v2Scenes } from './scenes/k8-bab2-p1-v2'
+import { k8bab2p2v2Scenes } from './scenes/k8-bab2-p2-v2'
+import { k8bab2p3v2Scenes } from './scenes/k8-bab2-p3-v2'
+import { k8bab2p4v2Scenes } from './scenes/k8-bab2-p4-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -255,9 +259,13 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-viii-bab1-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:6, judul:'Peredaran Darah', scenes:k8bab1p4Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab1-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:4, judul:'Peredaran Darah — Discovery Edition', scenes:k8bab1p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab1-p4', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab2-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:1, judul:'Organ Pernapasan', scenes:k8bab2p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab2-p1-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:1, judul:'Organ Pernapasan — Discovery Edition', scenes:k8bab2p1v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab2-p1', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab2-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:2, judul:'Mekanisme Pernapasan', scenes:k8bab2p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab2-p2-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:2, judul:'Mekanisme Pernapasan — Discovery Edition', scenes:k8bab2p2v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab2-p2', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab2-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:4, judul:'Organ Ekskresi', scenes:k8bab2p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab2-p3-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:3, judul:'Organ Ekskresi — Discovery Edition', scenes:k8bab2p3v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab2-p3', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab2-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:5, judul:'Pembentukan Urin', scenes:k8bab2p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab2-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:4, judul:'Pembentukan Urin — Discovery Edition', scenes:k8bab2p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab2-p4', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab3-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:1, judul:'Konsep Usaha', scenes:k8bab3p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab3-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:2, judul:'Energi & Hukum Kekekalan', scenes:k8bab3p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab3-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:4, judul:'Jenis Pesawat Sederhana', scenes:k8bab3p3Scenes, updatedAt:'2026-06-21' },
