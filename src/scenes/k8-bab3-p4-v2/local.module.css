@@ -1,0 +1,17 @@
+.doorViz{display:flex;align-items:center;gap:6px;justify-content:center}
+.doorHinge,.doorKnob{font-size:12px;color:var(--discovery-ink-3)}
+.doorBar{width:100px;height:6px;background:var(--discovery-primary);border-radius:3px}
+.doorNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.formulaBox{background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:14px 16px;border-left:3px solid var(--discovery-primary)}
+.formulaText{font-family:var(--mono);font-size:15px;color:var(--discovery-ink)}
+.formulaText strong{color:var(--discovery-primary);font-size:18px}
+.resultBox{display:flex;flex-direction:column;gap:4px;background:#eaf4f3;border-radius:11px;padding:14px 16px}
+.resultBox span{font-size:13px;color:var(--discovery-ink-2)}
+.resultBox strong{font-family:var(--mono);font-size:24px;color:var(--discovery-primary)}
+.resultNote{font-size:11.5px !important;color:var(--discovery-ink-3) !important}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.leverViz{position:relative;display:flex;align-items:center;justify-content:center;height:120px;width:100%}
+.fulcrum{width:0;height:0;border-left:14px solid transparent;border-right:14px solid transparent;border-bottom:24px solid var(--discovery-ink-3);position:absolute}
+.beam{position:relative;height:6px;background:var(--discovery-primary);border-radius:3px;transition:width .2s ease}
+.bebanEnd{position:absolute;left:-24px;top:-30px;font-size:12px;white-space:nowrap}
+.kuasaEnd{position:absolute;top:-30px;font-size:12px;white-space:nowrap;transition:right .2s ease}

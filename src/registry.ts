@@ -147,6 +147,10 @@ import { k8bab2p1v2Scenes } from './scenes/k8-bab2-p1-v2'
 import { k8bab2p2v2Scenes } from './scenes/k8-bab2-p2-v2'
 import { k8bab2p3v2Scenes } from './scenes/k8-bab2-p3-v2'
 import { k8bab2p4v2Scenes } from './scenes/k8-bab2-p4-v2'
+import { k8bab3p1v2Scenes } from './scenes/k8-bab3-p1-v2'
+import { k8bab3p2v2Scenes } from './scenes/k8-bab3-p2-v2'
+import { k8bab3p3v2Scenes } from './scenes/k8-bab3-p3-v2'
+import { k8bab3p4v2Scenes } from './scenes/k8-bab3-p4-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -267,9 +271,13 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-viii-bab2-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:5, judul:'Pembentukan Urin', scenes:k8bab2p4Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab2-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:4, judul:'Pembentukan Urin — Discovery Edition', scenes:k8bab2p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab2-p4', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab3-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:1, judul:'Konsep Usaha', scenes:k8bab3p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab3-p1-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:1, judul:'Konsep Usaha — Discovery Edition', scenes:k8bab3p1v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab3-p1', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab3-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:2, judul:'Energi & Hukum Kekekalan', scenes:k8bab3p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab3-p2-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:2, judul:'Energi & Kekekalan — Discovery Edition', scenes:k8bab3p2v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab3-p2', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab3-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:4, judul:'Jenis Pesawat Sederhana', scenes:k8bab3p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab3-p3-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:3, judul:'Pesawat Sederhana — Discovery Edition', scenes:k8bab3p3v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab3-p3', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab3-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:5, judul:'Keuntungan Mekanik', scenes:k8bab3p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab3-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab3', babTitle:K8BAB3, babOrder:3, pertemuan:4, judul:'Keuntungan Mekanik — Discovery Edition', scenes:k8bab3p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab3-p4', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab4-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab4', babTitle:K8BAB4, babOrder:4, pertemuan:1, judul:'Tekanan Zat Padat', scenes:k8bab4p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab4-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab4', babTitle:K8BAB4, babOrder:4, pertemuan:2, judul:'Tekanan Hidrostatis', scenes:k8bab4p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab4-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab4', babTitle:K8BAB4, babOrder:4, pertemuan:3, judul:'Hukum Pascal', scenes:k8bab4p3Scenes, updatedAt:'2026-06-21' },

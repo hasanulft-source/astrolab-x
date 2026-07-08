@@ -1,0 +1,16 @@
+.hillViz{display:flex;justify-content:center}
+.hillSlope{position:relative;width:120px;height:80px;background:linear-gradient(135deg,transparent 49%,var(--discovery-primary) 50%);border-radius:4px;opacity:.25}
+.ballTop{position:absolute;top:-6px;left:-6px;font-size:18px}
+.hillNote{font-size:12.5px;color:var(--discovery-ink-3);text-align:center;margin-top:12px}
+.barRow{display:flex;align-items:center;gap:8px}
+.barLabel{flex:0 0 90px;font-size:13px;font-weight:600;color:var(--discovery-ink-2)}
+.barTrack{flex:1;height:16px;background:var(--surface-2);border-radius:8px;overflow:hidden}
+.barFillEp{height:100%;background:#0891b2;transition:width .2s ease}
+.barFillEk{height:100%;background:var(--discovery-primary);transition:width .2s ease}
+.barVal{flex:0 0 30px;text-align:right;font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--discovery-ink)}
+.totalBox{font-size:14px;color:var(--discovery-ink-2);padding:10px 14px;background:#eaf4f3;border-radius:9px}
+.totalBox strong{color:var(--discovery-primary);font-family:var(--mono);font-size:16px}
+.vizCenter{display:flex;align-items:center;justify-content:center}
+.hillTrack{position:relative;width:220px;height:140px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.hillLine{position:absolute;top:0;left:0;width:0;height:0;border-style:solid;border-width:0 220px 140px 0;border-color:transparent #eaf4f3 transparent transparent}
+.ballOnHill{position:absolute;font-size:20px;transition:left .2s ease,top .2s ease}
