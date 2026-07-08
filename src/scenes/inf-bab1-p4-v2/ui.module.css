@@ -1,0 +1,76 @@
+/* AstroLab Informatika Gen 2 — BAB 1 Problem Solver */
+/* Tema: indigo gelap, violet aksen, lavender muda */
+
+.wrap{display:flex;flex-direction:column;height:100%;gap:14px}
+.main{flex:1;display:grid;gap:16px;min-height:0;overflow:hidden}
+.scrollable{overflow-y:auto}
+
+.prompt{font-size:22px;font-weight:700;color:#09637e;line-height:1.45;margin:0}
+.prompt em{color:#088395;font-style:normal}
+.prompt span{color:#0d6b7a}
+.sub{font-size:15px;color:#6b7280;line-height:1.5;margin:0}
+
+.levelBadge{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;border-radius:20px;background:#eef7f7;border:1.5px solid #088395;font-size:12px;font-weight:700;color:#088395;font-family:'DM Mono',monospace;letter-spacing:.8px}
+
+.missionCard{background:#09637e;border-radius:12px;padding:18px 20px;color:#fff}
+.missionCardTitle{font-family:'DM Mono',monospace;font-size:11px;font-weight:700;color:#088395;letter-spacing:.8px;margin-bottom:4px}
+.missionCardText{font-size:16px;color:#7ab2b2;line-height:1.5}
+
+.hint{background:#eef7f7;border-left:4px solid #088395;border-radius:0 8px 8px 0;padding:12px 18px;font-size:15px;color:#0a525c;line-height:1.55}
+
+.panel{background:#f7f8fa;border:1.5px solid #e2e6ea;border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;overflow:auto}
+.panelTitle{font-size:15px;font-weight:700;color:#09637e}
+
+.btn{padding:10px 20px;border-radius:9px;border:none;cursor:pointer;font-family:'Plus Jakarta Sans',sans-serif;font-size:15px;font-weight:600;transition:all .2s}
+.btnPrimary{background:#09637e;color:#fff}
+.btnPrimary:hover{background:#0b3a44}
+.btnViolet{background:#088395;color:#fff}
+.btnViolet:hover{background:#6d28d9}
+.btnOutline{background:transparent;border:2px solid #e2e6ea;color:#6b7280}
+.btnOutline:hover{border-color:#088395;color:#088395}
+.btnRow{display:flex;gap:10px;flex-wrap:wrap}
+
+.table{width:100%;border-collapse:collapse;font-size:14px}
+.table th{background:#09637e;color:#fff;padding:10px 14px;text-align:left;font-size:13px;font-weight:600}
+.table td{padding:10px 14px;border-bottom:1px solid #e2e6ea;vertical-align:top;color:#3a3d42}
+.table tr:nth-child(even) td{background:#f0f8f8}
+
+.codeBox{background:#0b3a44;border-radius:10px;padding:16px 20px;font-family:'DM Mono',monospace;font-size:14px;line-height:1.8}
+.codeLine{color:#7ab2b2}
+.codeKeyword{color:#89c5cc;font-weight:700}
+.codeComment{color:#6b7280;font-style:italic}
+
+.robotDisplay{background:#0b3a44;border-radius:12px;padding:20px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.robotIcon{font-size:48px}
+.robotStatus{font-family:'DM Mono',monospace;font-size:13px;color:#89c5cc;letter-spacing:.5px}
+.robotLog{width:100%;background:#0f0d1a;border-radius:8px;padding:12px 14px;font-family:'DM Mono',monospace;font-size:13px;color:#088395;min-height:60px;line-height:1.8}
+
+.noteArea{width:100%;min-height:80px;border:1.5px solid #e2e6ea;border-radius:8px;padding:12px 14px;font-family:'Plus Jakarta Sans',sans-serif;font-size:15px;color:#1a1c1e;resize:vertical;box-sizing:border-box;background:#faf9ff}
+.noteArea:focus{border-color:#088395;outline:none}
+
+.scoreDisplay{background:#eef7f7;border:2px solid #088395;border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:14px}
+.scoreBig{font-family:'DM Mono',monospace;font-size:36px;font-weight:700;color:#088395}
+.scoreLabel{font-size:14px;color:#0a525c}
+
+.pseudoInput{width:100%;font-family:'DM Mono',monospace;font-size:14px;padding:12px 14px;background:#0b3a44;color:#7ab2b2;border:1.5px solid #09637e;border-radius:8px;line-height:1.8;min-height:120px;resize:vertical;box-sizing:border-box}
+.pseudoInput:focus{border-color:#088395;outline:none}
+
+.statusFooter{background:#09637e;border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:12px}
+.statusLevel{font-family:'DM Mono',monospace;font-size:12px;color:#088395;font-weight:700;letter-spacing:.8px}
+.statusText{font-size:14px;color:#7ab2b2;flex:1}
+
+.progressBar{height:8px;background:#0b3a44;border-radius:4px;overflow:hidden}
+.progressFill{height:100%;background:#088395;border-radius:4px;transition:width .4s}
+
+.chip{display:inline-flex;align-items:center;gap:5px;padding:5px 12px;border-radius:20px;font-size:13px;font-weight:600;cursor:pointer;border:2px solid transparent;transition:all .2s}
+.chipDefault{background:#eef7f7;color:#0a525c;border-color:#7ab2b2}
+.chipActive{background:#088395;color:#fff;border-color:#088395}
+.chipCorrect{background:#f0fdf4;color:#16a34a;border-color:#16a34a}
+.chipWrong{background:#fef2f2;color:#dc2626;border-color:#dc2626}
+
+.scratchBlock{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:6px;font-family:'DM Mono',monospace;font-size:13px;font-weight:600;cursor:pointer;border:none;margin:3px;transition:all .2s}
+.blockMotion{background:#4c97ff;color:#fff}
+.blockControl{background:#e6a117;color:#fff}
+.blockLooks{background:#9966ff;color:#fff}
+.blockOperator{background:#59c059;color:#fff}
+.blockVar{background:#ff8c1a;color:#fff}

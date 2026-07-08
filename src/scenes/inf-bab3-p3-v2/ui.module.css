@@ -1,0 +1,170 @@
+/* AstroLab Informatika Gen 2 — BAB 3 Digital Detective */
+/* Tema: dossier investigasi — navy gelap, amber bukti, krem kertas */
+
+/* ── Layout dasar ─────────────────────────────── */
+.wrap { display:flex; flex-direction:column; height:100%; gap:14px; }
+.main { flex:1; display:grid; gap:16px; min-height:0; overflow:hidden; }
+.main2col { grid-template-columns:1.1fr 1fr; }
+.main3col { grid-template-columns:1fr 1fr 1fr; }
+.scrollable { overflow-y:auto; }
+
+/* ── Typography utama ─────────────────────────── */
+.prompt { font-size:22px; font-weight:700; color:#1a2b3d; line-height:1.45; margin:0; }
+.prompt em { color:#b45309; font-style:normal; }
+.prompt span { color:#0d6b7a; }
+.sub { font-size:15px; color:#6b7280; line-height:1.5; margin:0; }
+
+/* ── Badge babak ──────────────────────────────── */
+.babakBadge {
+  display:inline-flex; align-items:center; gap:8px;
+  padding:5px 14px; border-radius:20px;
+  background:#fef3e2; border:1.5px solid #b45309;
+  font-size:12px; font-weight:700; color:#b45309;
+  font-family:'DM Mono', monospace; letter-spacing:.8px;
+}
+
+/* ── Evidence box (barang bukti) ──────────────── */
+.evidenceBox {
+  background:#faf7f0;
+  border:2px dashed #b45309;
+  border-radius:12px;
+  padding:18px 20px;
+}
+.evidenceLabel {
+  font-family:'DM Mono', monospace; font-size:11px; font-weight:700;
+  color:#b45309; letter-spacing:1.2px; margin-bottom:10px; display:block;
+}
+.evidenceText {
+  font-size:16px; line-height:1.7; color:#1a1c1e; font-style:italic;
+}
+
+/* ── Callout investigasi ──────────────────────── */
+.callout {
+  background:#eaf4f3; border-left:4px solid #0d6b7a;
+  border-radius:0 8px 8px 0; padding:14px 18px;
+  font-size:15px; color:#0a525c; line-height:1.55;
+}
+.trapWarning {
+  background:#fef2f2; border-left:4px solid #b91c1c;
+  border-radius:0 8px 8px 0; padding:14px 18px;
+}
+.trapLabel {
+  font-family:'DM Mono', monospace; font-size:11px; font-weight:700;
+  color:#b91c1c; letter-spacing:1px; display:block; margin-bottom:6px;
+}
+.trapText { font-size:15px; color:#7f1d1d; line-height:1.55; }
+
+/* ── Tabel klasifikasi ────────────────────────── */
+.tableWrap { overflow:auto; }
+.table { width:100%; border-collapse:collapse; font-size:14px; }
+.table th {
+  background:#1a2b3d; color:#fff; padding:10px 14px;
+  text-align:left; font-size:13px; font-weight:600;
+}
+.table td {
+  padding:10px 14px; border-bottom:1px solid #e2e6ea;
+  vertical-align:top; color:#3a3d42;
+}
+.table tr:nth-child(even) td { background:#f7f8fa; }
+.table td:first-child { font-style:italic; color:#1a1c1e; }
+
+/* ── Klaim chip & pills ───────────────────────── */
+.claimChip {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 12px; border-radius:20px; cursor:pointer;
+  font-size:14px; font-weight:500; border:2px solid transparent;
+  transition:all .2s;
+}
+.chipFakta  { background:#f0fdf4; border-color:#16a34a; color:#166534; }
+.chipOpini  { background:#eff6ff; border-color:#3b82f6; color:#1e40af; }
+.chipHoaks  { background:#fef2f2; border-color:#dc2626; color:#991b1b; }
+.chipNeutral { background:#f7f8fa; border-color:#e2e6ea; color:#6b7280; }
+
+/* ── Status row (CRAAP test dll) ─────────────── */
+.statusRow {
+  display:grid; grid-template-columns:1.5fr 2.5fr 80px; gap:0;
+  border:1px solid #e2e6ea; border-radius:8px; overflow:hidden; margin-bottom:5px;
+}
+.statusLabel { padding:12px 16px; background:#fef3e2; font-size:14px; font-weight:600; color:#b45309; }
+.statusDesc  { padding:12px 16px; font-size:14px; color:#3a3d42; border-left:1px solid #e2e6ea; }
+.statusCheck { display:flex; align-items:center; justify-content:center; border-left:1px solid #e2e6ea; cursor:pointer; transition:all .2s; }
+.statusPass  { background:#f0fdf4; }
+.statusFail  { background:#fef2f2; }
+
+/* ── Input dan textarea ───────────────────────── */
+.noteArea {
+  width:100%; min-height:80px; border:1.5px solid #e2e6ea; border-radius:8px;
+  padding:12px 14px; font-family:'Plus Jakarta Sans', sans-serif;
+  font-size:15px; color:#1a1c1e; resize:vertical; box-sizing:border-box;
+  background:#faf7f0;
+}
+.noteArea:focus { border-color:#0d6b7a; outline:none; }
+
+/* ── Tombol ───────────────────────────────────── */
+.btn {
+  padding:10px 20px; border-radius:9px; border:none; cursor:pointer;
+  font-family:'Plus Jakarta Sans', sans-serif; font-size:15px; font-weight:600;
+  transition:all .2s;
+}
+.btnPrimary { background:#1a2b3d; color:#fff; }
+.btnPrimary:hover { background:#0f1b28; }
+.btnAmber { background:#b45309; color:#fff; }
+.btnAmber:hover { background:#92400e; }
+.btnOutline { background:transparent; border:2px solid #e2e6ea; color:#6b7280; }
+.btnOutline:hover { border-color:#0d6b7a; color:#0d6b7a; }
+.btnRow { display:flex; gap:10px; flex-wrap:wrap; }
+
+/* ── Case file card ───────────────────────────── */
+.caseCard {
+  background:#1a2b3d; border-radius:12px; padding:18px 20px; color:#fff;
+}
+.caseCardTitle { font-size:13px; color:#b45309; font-family:'DM Mono',monospace; letter-spacing:.8px; margin-bottom:4px; }
+.caseCardText  { font-size:16px; color:#c5d3de; line-height:1.5; }
+
+/* ── Panel detail ─────────────────────────────── */
+.panel {
+  background:#f7f8fa; border:1.5px solid #e2e6ea; border-radius:12px;
+  padding:18px 20px; display:flex; flex-direction:column; gap:10px; overflow:auto;
+}
+.panelTitle { font-size:15px; font-weight:700; color:#1a2b3d; }
+
+/* ── Progress investigasi ─────────────────────── */
+.progressBar { height:6px; background:#e2e6ea; border-radius:3px; overflow:hidden; }
+.progressFill { height:100%; background:#b45309; border-radius:3px; transition:width .4s; }
+
+/* ── Operator search ──────────────────────────── */
+.searchBox {
+  display:flex; gap:8px; align-items:center;
+  background:#fff; border:2px solid #e2e6ea; border-radius:10px;
+  padding:8px 14px; transition:border-color .2s;
+}
+.searchBox:focus-within { border-color:#0d6b7a; }
+.searchInput {
+  flex:1; border:none; outline:none; font-size:16px; font-family:'Plus Jakarta Sans',sans-serif;
+  color:#1a1c1e; background:transparent; font-family:'DM Mono',monospace;
+}
+.searchBtn { background:#0d6b7a; color:#fff; border:none; border-radius:7px; padding:7px 14px; cursor:pointer; font-size:14px; font-weight:600; }
+.searchResult {
+  padding:12px 14px; border-radius:8px; border:1px solid #e2e6ea;
+  font-size:14px; color:#3a3d42; background:#fff; line-height:1.5;
+}
+.searchResultTitle { font-weight:600; color:#1a2b3d; margin-bottom:3px; }
+.searchResultUrl   { font-size:12px; color:#16a34a; font-family:'DM Mono',monospace; }
+.searchResultSub   { color:#6b7280; margin-top:4px; }
+.noResult { color:#b91c1c; font-style:italic; font-size:14px; padding:12px 0; }
+
+/* ── Operator pill ────────────────────────────── */
+.opPill {
+  display:inline-flex; align-items:center; gap:5px; cursor:pointer;
+  padding:5px 11px; border-radius:6px; font-family:'DM Mono',monospace; font-size:13px;
+  border:1.5px solid #e2e6ea; background:#f7f8fa; color:#6b7280; transition:all .2s;
+}
+.opPillActive { background:#eaf4f3; border-color:#0d6b7a; color:#0a525c; font-weight:600; }
+
+/* ── Kesimpulan footer ────────────────────────── */
+.caseFooter {
+  background:#1a2b3d; border-radius:10px; padding:14px 18px;
+  display:flex; align-items:center; gap:12px;
+}
+.caseFooterStatus { font-family:'DM Mono',monospace; font-size:12px; color:#b45309; font-weight:700; letter-spacing:.8px; }
+.caseFooterText   { font-size:14px; color:#c5d3de; flex:1; }

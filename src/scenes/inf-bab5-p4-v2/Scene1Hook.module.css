@@ -1,0 +1,15 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.network{flex:1;display:flex;flex-direction:column;gap:4px;overflow-y:auto}
+.hop{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.hop{position:relative;padding-left:0}
+.hop{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center}
+.hopIcon{font-size:24px;grid-row:1}
+.hopBody{grid-column:2}
+.hopLoc{font-size:14px;font-weight:700;color:var(--teal-deep)}
+.hopD{font-size:13px;color:var(--ink-2);line-height:1.4}
+.arrow{grid-column:1;text-align:center;font-size:16px;color:var(--teal-mid);font-weight:700}
+.nextBtn{align-self:flex-start;padding:8px 16px;border:none;border-radius:8px;background:var(--teal-mid);color:#fff;font-family:var(--font-sans);font-size:14px;font-weight:600;cursor:pointer}
+.reveal{padding:12px 14px;background:var(--teal-cream);border:1.5px solid var(--teal-soft);border-radius:9px;font-size:14px;color:var(--ink);line-height:1.6;animation:pop .2s ease}
+.reveal b{color:var(--teal-mid)}
+@keyframes pop{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}

@@ -1,0 +1,20 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.toggle{display:flex;gap:8px}
+.tBtn{padding:8px 16px;border-radius:8px;border:1.5px solid var(--line);background:var(--surface-2);font-family:var(--font-sans);font-size:14px;font-weight:600;color:var(--ink-2);cursor:pointer;transition:all .12s}
+.tBtn:hover{border-color:var(--teal-soft)}
+.tOn{border-color:var(--teal-mid);background:var(--teal-cream);color:var(--teal-deep)}
+.messyBox,.treeBox{flex:1;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface-2);overflow-y:auto;display:flex;flex-direction:column;gap:8px}
+.messyLabel{font-family:var(--font-mono);font-size:12px;color:var(--ink-4);font-weight:700}
+.messyFiles{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.file{font-size:13px;color:var(--ink);font-family:var(--font-mono);padding:5px 8px;background:#fff1f2;border-radius:5px}
+.messyNote{font-size:13px;color:#991b1b;line-height:1.5}
+.treeRoot{display:flex;flex-direction:column;gap:3px;margin-bottom:8px}
+.folderRoot{font-size:14px;font-weight:700;color:var(--teal-deep)}
+.treeSub{margin-left:20px;display:flex;flex-direction:column;gap:2px}
+.folderSub{font-size:13.5px;font-weight:600;color:var(--teal-mid)}
+.folderLeaf{margin-left:20px;font-size:13px;color:var(--ink-2)}
+.treeNote{font-size:13px;color:#166534;line-height:1.5;margin-top:4px}
+.rule{padding:11px 13px;background:#fefce8;border:1px solid #fde047;border-radius:9px;font-size:13.5px;color:var(--ink);line-height:1.5}
+.rule b{color:#92400e}
+.rule code{font-family:var(--font-mono);font-size:12.5px;background:#fff;padding:2px 6px;border-radius:4px;color:var(--teal-deep)}

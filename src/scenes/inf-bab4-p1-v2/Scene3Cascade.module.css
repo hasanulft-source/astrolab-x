@@ -1,0 +1,13 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.cascade{flex:1;display:flex;flex-direction:column;gap:8px;overflow-y:auto}
+.stage{display:flex;gap:10px;align-items:flex-start;animation:slideIn .3s ease}
+.stageDot{width:12px;height:12px;border-radius:50%;margin-top:4px;flex-shrink:0}
+.stageBody{padding:9px 12px;background:var(--surface-2);border:1px solid var(--line);border-radius:9px;flex:1}
+.stageT{font-size:14px;font-weight:700;color:var(--ink)}
+.stageD{font-size:13px;color:var(--ink-2);margin-top:2px;line-height:1.4}
+.moreBtn{align-self:flex-start;padding:8px 16px;border:none;border-radius:8px;background:var(--teal-mid);color:#fff;font-family:var(--font-sans);font-size:14px;font-weight:600;cursor:pointer}
+.insight{padding:12px 14px;background:#fff1f2;border:1.5px solid #fca5a5;border-radius:9px;font-size:14px;color:var(--ink);line-height:1.6;animation:pop .2s ease}
+.insight b{color:#dc2626}
+@keyframes slideIn{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}

@@ -1,0 +1,12 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.ladder{display:flex;flex-direction:column;gap:7px}
+.rung{padding:11px 14px;border-radius:9px;border:1.5px solid var(--line);background:var(--surface-2);cursor:pointer;text-align:left;transition:all .15s;display:flex;justify-content:space-between;align-items:center}
+.rung:hover{border-color:var(--teal-soft)}
+.rungLevel{font-size:15px;font-weight:700;color:var(--ink)}
+.rungTanya{font-size:13px;color:var(--ink-4);font-family:var(--font-mono)}
+.detail{padding:14px 16px;border-radius:10px;border:1.5px solid;background:#fff;display:flex;flex-direction:column;gap:8px;animation:pop .2s ease}
+.dContoh{font-size:15px;color:var(--ink);line-height:1.6;font-style:italic}
+.dCiri{font-size:13.5px;color:var(--ink-3);line-height:1.5}
+.note{padding:11px 13px;background:#fefce8;border:1px solid #fde047;border-radius:9px;font-size:13.5px;color:var(--ink);line-height:1.5}
+@keyframes pop{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}

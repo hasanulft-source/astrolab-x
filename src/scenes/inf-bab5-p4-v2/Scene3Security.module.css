@@ -1,0 +1,12 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.sitBox{padding:14px 16px;background:#fff1f2;border:1.5px solid #fca5a5;border-radius:10px;font-size:15.5px;color:var(--ink);line-height:1.5}
+.warn{color:#f59e0b;font-weight:700;margin-right:6px}
+.revBtn{align-self:flex-start;padding:8px 16px;border:none;border-radius:8px;background:var(--teal-mid);color:#fff;font-family:var(--font-sans);font-size:14px;font-weight:600;cursor:pointer}
+.analysis{display:flex;flex-direction:column;gap:8px;animation:pop .2s ease}
+.risiko{padding:11px 13px;background:#fff1f2;border:1px solid #fca5a5;border-radius:9px;font-size:14px;color:var(--ink);line-height:1.5}
+.risiko b{color:#dc2626}
+.fix{padding:11px 13px;background:#f0fdf4;border:1px solid #86efac;border-radius:9px;font-size:14px;color:var(--ink);line-height:1.5}
+.fix b{color:#166534}
+.nextBtn{align-self:flex-start;padding:7px 12px;border:none;border-radius:7px;background:var(--teal-mid);color:#fff;font-family:var(--font-sans);font-size:13px;font-weight:600;cursor:pointer}
+@keyframes pop{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}

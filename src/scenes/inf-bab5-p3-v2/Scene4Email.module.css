@@ -1,0 +1,15 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:200px 1fr;gap:14px;min-height:0}
+.emailMock{display:flex;flex-direction:column;gap:5px}
+.emailPart{padding:10px 12px;border-radius:8px;border:1.5px solid var(--line);background:var(--surface-2);cursor:pointer;text-align:left;transition:all .15s}
+.emailPart:hover{border-color:var(--teal-soft)}
+.partSel{border-color:var(--teal-mid);background:var(--teal-cream)}
+.partLabel{font-size:13px;font-weight:600;color:var(--ink)}
+.detail{display:flex;flex-direction:column;gap:9px;overflow-y:auto}
+.dNama{font-size:17px;font-weight:700;color:var(--teal-deep)}
+.dIsi{font-size:14px;color:var(--ink-2)}
+.dContoh{font-family:var(--font-mono);font-size:13px;color:var(--ink);padding:11px 13px;background:#1e1e1e;border-radius:8px;line-height:1.6}
+.dContoh div{color:#4ec9b0}
+.dTip{font-size:13.5px;color:var(--ink);padding:10px 12px;background:var(--teal-cream);border-radius:8px;line-height:1.5}
+.dTip b{color:var(--teal-mid)}

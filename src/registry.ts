@@ -120,6 +120,21 @@ import { bab7p1v2Scenes } from './scenes/bab7-p1-v2'
 import { bab7p2v2Scenes } from './scenes/bab7-p2-v2'
 import { bab7p3v2Scenes } from './scenes/bab7-p3-v2'
 import { bab7p4v2Scenes } from './scenes/bab7-p4-v2'
+import { infbab1p1v2Scenes } from './scenes/inf-bab1-p1-v2'
+import { infbab1p2v2Scenes } from './scenes/inf-bab1-p2-v2'
+import { infbab1p3v2Scenes } from './scenes/inf-bab1-p3-v2'
+import { infbab1p4v2Scenes } from './scenes/inf-bab1-p4-v2'
+import { infbab2p1v2Scenes } from './scenes/inf-bab2-p1-v2'
+import { infbab2p2v2Scenes } from './scenes/inf-bab2-p2-v2'
+import { infbab2p3v2Scenes } from './scenes/inf-bab2-p3-v2'
+import { infbab2p4v2Scenes } from './scenes/inf-bab2-p4-v2'
+import { infbab3p1v2Scenes } from './scenes/inf-bab3-p1-v2'
+import { infbab3p2v2Scenes } from './scenes/inf-bab3-p2-v2'
+import { infbab3p3v2Scenes } from './scenes/inf-bab3-p3-v2'
+import { infbab3p4v2Scenes } from './scenes/inf-bab3-p4-v2'
+import { infbab4p1v2Scenes } from './scenes/inf-bab4-p1-v2'
+import { infbab4p2v2Scenes } from './scenes/inf-bab4-p2-v2'
+import { infbab4p3v2Scenes } from './scenes/inf-bab4-p3-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -252,20 +267,35 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-viii-bab7-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:3, judul:'Tekstur & pH Tanah', scenes:k8bab7p3Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab7-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab7', babTitle:K8BAB7, babOrder:7, pertemuan:4, judul:'Degradasi & Konservasi Tanah', scenes:k8bab7p4Scenes, updatedAt:'2026-06-21' },
   { id:'inf-vii-bab1-p1', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:1, judul:'4 Pondasi Berpikir Komputasional', scenes:infbab1p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p1-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:1, judul:'4 Pondasi BK — Discovery Edition', scenes:infbab1p1v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab1-p1', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab1-p2', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:2, judul:'Dekomposisi & Pengenalan Pola', scenes:infbab1p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p2-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:2, judul:'Dekomposisi & Pola — Discovery Edition', scenes:infbab1p2v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab1-p2', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab1-p3', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:3, judul:'Algoritma & Pseudocode', scenes:infbab1p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p3-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:3, judul:'Algoritma & Pseudocode — Discovery Edition', scenes:infbab1p3v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab1-p3', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab1-p4', mapel:'Informatika', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:4, judul:'Pemrograman Blok (Scratch)', scenes:infbab1p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab1-p4-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab1', babTitle:INFBAB1, babOrder:1, pertemuan:4, judul:'Pemrograman Blok — Discovery Edition', scenes:infbab1p4v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab1-p4', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab2-p1', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:1, judul:'Data & Informasi', scenes:infbab2p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p1-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:1, judul:'Data vs Informasi — Discovery Edition', scenes:infbab2p1v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab2-p1', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab2-p2', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:2, judul:'Spreadsheet & Formula Dasar', scenes:infbab2p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p2-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:2, judul:'Formula Bersyarat — Discovery Edition', scenes:infbab2p2v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab2-p2', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab2-p3', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:6, judul:'Mengurutkan & Menyaring Data', scenes:infbab2p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p3-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:3, judul:'Visualisasi Data — Discovery Edition', scenes:infbab2p3v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab2-p3', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab2-p4', mapel:'Informatika', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:7, judul:'Visualisasi & Analisis Data', scenes:infbab2p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab2-p4-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab2', babTitle:INFBAB2, babOrder:2, pertemuan:4, judul:'Analisis & Laporan — Discovery Edition', scenes:infbab2p4v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab2-p4', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab3-p1', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:1, judul:'Data, Informasi & Konten', scenes:infbab3p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p1-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:1, judul:'Data, Informasi & Konten — Discovery Edition', scenes:infbab3p1v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab3-p1', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab3-p2', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:2, judul:'Mesin Pencari Efektif', scenes:infbab3p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p2-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:2, judul:'Mesin Pencari Efektif — Discovery Edition', scenes:infbab3p2v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab3-p2', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab3-p3', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:4, judul:'Fakta, Opini & Hoaks', scenes:infbab3p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p3-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:4, judul:'Fakta, Opini & Hoaks — Discovery Edition', scenes:infbab3p3v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab3-p3', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab3-p4', mapel:'Informatika', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:5, judul:'Kredibilitas Sumber & Manajemen', scenes:infbab3p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab3-p4-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab3', babTitle:INFBAB3, babOrder:3, pertemuan:5, judul:'Kredibilitas Sumber — Discovery Edition', scenes:infbab3p4v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab3-p4', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab4-p1', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:1, judul:'Ruang Publik Virtual & Etika', scenes:infbab4p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab4-p1-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:1, judul:'Ruang Publik & Etika — Discovery Edition', scenes:infbab4p1v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab4-p1', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab4-p2', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:2, judul:'Keseimbangan Dunia Digital', scenes:infbab4p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab4-p2-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:2, judul:'Keseimbangan Digital — Discovery Edition', scenes:infbab4p2v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab4-p2', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab4-p3', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:3, judul:'Informasi Privat & Publik', scenes:infbab4p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab4-p3-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:3, judul:'Privat vs Publik — Discovery Edition', scenes:infbab4p3v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab4-p3', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab4-p4', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:3, judul:'Kata Sandi Aman', scenes:infbab4p4Scenes, updatedAt:'2026-06-21' },
   { id:'inf-vii-bab5-p1', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:1, judul:'Perangkat Keras Komputer', scenes:infbab5p1Scenes, updatedAt:'2026-06-21' },
   { id:'inf-vii-bab5-p2', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:2, judul:'Cara Kerja Komputer (IPO)', scenes:infbab5p2Scenes, updatedAt:'2026-06-21' },

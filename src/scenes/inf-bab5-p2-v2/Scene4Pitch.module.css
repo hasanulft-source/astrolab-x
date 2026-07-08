@@ -1,0 +1,14 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.slides{flex:1;display:flex;flex-direction:column;gap:7px;overflow-y:auto}
+.slide{display:flex;gap:11px;align-items:flex-start;padding:10px 12px;border-radius:9px;border:1.5px solid var(--line);background:var(--surface-2);transition:all .2s}
+.slideShown{border-color:var(--teal-soft);background:var(--teal-cream)}
+.slideNum{width:26px;height:26px;border-radius:7px;background:var(--teal-mid);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:14px;font-weight:700;flex-shrink:0}
+.slideBody{flex:1}
+.slideTitle{font-size:14px;font-weight:700;color:var(--ink)}
+.slideIsi{font-size:13.5px;color:var(--ink-2);margin-top:3px;line-height:1.4}
+.slideDur{font-size:12px;color:var(--teal-mid);font-family:var(--font-mono);margin-top:3px}
+.openBtn{margin-top:5px;padding:4px 12px;border:1px solid var(--teal-soft);border-radius:6px;background:#fff;font-family:var(--font-sans);font-size:12px;font-weight:600;color:var(--teal-deep);cursor:pointer}
+.done{padding:12px 14px;background:#f0fdf4;border:1.5px solid #86efac;border-radius:9px;font-size:14px;color:var(--ink);line-height:1.6;animation:pop .2s ease}
+.done b{color:#166534}
+@keyframes pop{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}

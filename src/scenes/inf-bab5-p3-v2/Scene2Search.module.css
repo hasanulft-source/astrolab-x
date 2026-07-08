@@ -1,0 +1,15 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:180px 1fr;gap:14px;min-height:0}
+.list{display:flex;flex-direction:column;gap:6px}
+.item{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border-radius:9px;border:1.5px solid var(--line);background:var(--surface-2);cursor:pointer;text-align:left;transition:all .15s}
+.item:hover{border-color:var(--teal-soft)}
+.itemSel{border-color:var(--teal-mid);background:var(--teal-cream)}
+.op{font-family:var(--font-mono);font-size:15px;font-weight:700;color:var(--teal-mid)}
+.opName{font-size:12px;color:var(--ink-3)}
+.detail{display:flex;flex-direction:column;gap:10px}
+.dOp{font-family:var(--font-mono);font-size:32px;font-weight:700;color:var(--teal-deep)}
+.dNama{font-size:17px;font-weight:700;color:var(--ink)}
+.dDesc{font-size:14.5px;color:var(--ink-2);line-height:1.5;padding:10px 12px;background:var(--surface-2);border-radius:8px;border:1px solid var(--line)}
+.dEx{font-size:13.5px;color:var(--ink);padding:11px 13px;background:var(--teal-cream);border-radius:8px;line-height:1.5;font-family:var(--font-mono)}
+.exLabel{font-weight:700;color:var(--teal-mid);margin-right:6px;font-family:var(--font-sans)}

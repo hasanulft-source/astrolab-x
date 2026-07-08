@@ -1,0 +1,14 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.main{flex:1;display:grid;grid-template-columns:180px 1fr;gap:14px;min-height:0}
+.list{display:flex;flex-direction:column;gap:6px}
+.item{padding:10px 12px;border-radius:9px;border:1.5px solid var(--line);background:var(--surface-2);cursor:pointer;text-align:left;transition:all .15s}
+.item:hover{border-color:var(--teal-soft)}
+.itemSel{border-color:var(--teal-mid);background:var(--teal-cream)}
+.iNama{font-size:13.5px;font-weight:700;color:var(--ink)}
+.iAnalogi{font-size:12px;color:var(--ink-4);font-style:italic}
+.detail{display:flex;flex-direction:column;gap:8px;overflow-y:auto}
+.dNama{font-size:17px;font-weight:700;color:var(--teal-deep)}
+.dAnalogi{font-size:13px;color:var(--ink-4);font-weight:400;font-style:italic}
+.dRow{font-size:14px;color:var(--ink-2);padding:9px 11px;background:var(--surface-2);border-radius:8px;border:1px solid var(--line);line-height:1.5}
+.dRow b{color:var(--ink)}

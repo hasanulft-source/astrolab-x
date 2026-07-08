@@ -1,0 +1,16 @@
+.prompt{font-size:22px;color:var(--ink);font-weight:600;line-height:1.5}
+.prompt em{color:var(--teal-mid);font-style:normal;font-weight:600}
+.prompt b{color:var(--ink)}
+.form{display:flex;flex-direction:column;gap:12px}
+.field{display:flex;flex-direction:column;gap:5px}
+.label{font-size:13px;font-weight:600;color:var(--ink-3)}
+.input{width:140px;padding:10px 14px;border:2px solid var(--teal-mid);border-radius:9px;font-family:var(--font-mono);font-size:22px;font-weight:700;color:var(--teal-deep);outline:none;text-align:center}
+.inputText{padding:8px 12px;border:1.5px solid var(--line);border-radius:8px;font-family:var(--font-sans);font-size:14px;color:var(--ink);outline:none}
+.inputText:focus{border-color:var(--teal-mid)}
+.apps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.analysis{padding:14px 16px;background:var(--teal-cream);border:1.5px solid var(--teal-soft);border-radius:10px;display:flex;flex-direction:column;gap:6px;animation:pop .2s ease}
+.aRow{font-size:15px;color:var(--ink)}
+.aRow b{font-family:var(--font-mono);color:var(--teal-deep)}
+.aQuestion{font-size:13px;font-weight:700;color:var(--teal-mid);margin-top:6px;text-transform:uppercase;letter-spacing:.05em;font-family:var(--font-mono)}
+.aQ{font-size:14px;color:var(--ink);line-height:1.5}
+@keyframes pop{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
