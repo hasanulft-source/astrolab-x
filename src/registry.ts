@@ -135,6 +135,14 @@ import { infbab3p4v2Scenes } from './scenes/inf-bab3-p4-v2'
 import { infbab4p1v2Scenes } from './scenes/inf-bab4-p1-v2'
 import { infbab4p2v2Scenes } from './scenes/inf-bab4-p2-v2'
 import { infbab4p3v2Scenes } from './scenes/inf-bab4-p3-v2'
+import { infbab5p1v2Scenes } from './scenes/inf-bab5-p1-v2'
+import { infbab5p2v2Scenes } from './scenes/inf-bab5-p2-v2'
+import { infbab5p3v2Scenes } from './scenes/inf-bab5-p3-v2'
+import { infbab5p4v2Scenes } from './scenes/inf-bab5-p4-v2'
+import { k8bab1p1v2Scenes } from './scenes/k8-bab1-p1-v2'
+import { k8bab1p2v2Scenes } from './scenes/k8-bab1-p2-v2'
+import { k8bab1p3v2Scenes } from './scenes/k8-bab1-p3-v2'
+import { k8bab1p4v2Scenes } from './scenes/k8-bab1-p4-v2'
 
 export interface SimEntry {
   isDiscovery?: boolean
@@ -239,9 +247,13 @@ export const SIMS: SimEntry[] = [
   { id:'ipa-vii-bab7-p4-v2', mapel:'IPA Discovery', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:7, judul:'Efek Rumah Kaca — Discovery Edition', scenes:bab7p4v2Scenes as any, isDiscovery:true, classicId:'ipa-vii-bab7-p4', updatedAt:'2026-06-30' },
   { id:'ipa-vii-bab7-p7', mapel:'IPA', kelas:'VII', babId:'bab7', babTitle:BAB7, babOrder:7, pertemuan:8, judul:'Data CO₂ & Perubahan Iklim', scenes:bab7p7Scenes, updatedAt:'2026-06-30' },
   { id:'ipa-viii-bab1-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:1, judul:'Nutrisi & Uji Makanan', scenes:k8bab1p1Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab1-p1-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:1, judul:'Nutrisi & Uji Makanan — Discovery Edition', scenes:k8bab1p1v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab1-p1', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab1-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:3, judul:'Organ Pencernaan', scenes:k8bab1p2Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab1-p2-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:2, judul:'Organ Pencernaan — Discovery Edition', scenes:k8bab1p2v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab1-p2', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab1-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:5, judul:'Darah & Jantung', scenes:k8bab1p3Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab1-p3-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:3, judul:'Darah & Jantung — Discovery Edition', scenes:k8bab1p3v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab1-p3', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab1-p4', mapel:'IPA', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:6, judul:'Peredaran Darah', scenes:k8bab1p4Scenes, updatedAt:'2026-06-21' },
+  { id:'ipa-viii-bab1-p4-v2', mapel:'IPA Discovery', kelas:'VIII', babId:'k8bab1', babTitle:K8BAB1, babOrder:1, pertemuan:4, judul:'Peredaran Darah — Discovery Edition', scenes:k8bab1p4v2Scenes as any, isDiscovery:true, classicId:'ipa-viii-bab1-p4', updatedAt:'2026-07-07' },
   { id:'ipa-viii-bab2-p1', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:1, judul:'Organ Pernapasan', scenes:k8bab2p1Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab2-p2', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:2, judul:'Mekanisme Pernapasan', scenes:k8bab2p2Scenes, updatedAt:'2026-06-21' },
   { id:'ipa-viii-bab2-p3', mapel:'IPA', kelas:'VIII', babId:'k8bab2', babTitle:K8BAB2, babOrder:2, pertemuan:4, judul:'Organ Ekskresi', scenes:k8bab2p3Scenes, updatedAt:'2026-06-21' },
@@ -298,9 +310,13 @@ export const SIMS: SimEntry[] = [
   { id:'inf-vii-bab4-p3-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:3, judul:'Privat vs Publik — Discovery Edition', scenes:infbab4p3v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab4-p3', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab4-p4', mapel:'Informatika', kelas:'VII', babId:'infbab4', babTitle:INFBAB4, babOrder:4, pertemuan:3, judul:'Kata Sandi Aman', scenes:infbab4p4Scenes, updatedAt:'2026-06-21' },
   { id:'inf-vii-bab5-p1', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:1, judul:'Perangkat Keras Komputer', scenes:infbab5p1Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p1-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:1, judul:'Diagnosa Hardware — Discovery Edition', scenes:infbab5p1v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab5-p1', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab5-p2', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:2, judul:'Cara Kerja Komputer (IPO)', scenes:infbab5p2Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p2-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:2, judul:'Word & PowerPoint — Discovery Edition', scenes:infbab5p2v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab5-p2', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab5-p3', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:2, judul:'Perangkat Lunak & Sistem Operasi', scenes:infbab5p3Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p3-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:2, judul:'Riset & Email Profesional — Discovery Edition', scenes:infbab5p3v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab5-p3', updatedAt:'2026-07-06' },
   { id:'inf-vii-bab5-p4', mapel:'Informatika', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:7, judul:'Jaringan & Internet', scenes:infbab5p4Scenes, updatedAt:'2026-06-21' },
+  { id:'inf-vii-bab5-p4-v2', mapel:'Informatika Discovery', kelas:'VII', babId:'infbab5', babTitle:INFBAB5, babOrder:5, pertemuan:7, judul:'Jaringan & Integrasi — Discovery Edition', scenes:infbab5p4v2Scenes as any, isDiscovery:true, classicId:'inf-vii-bab5-p4', updatedAt:'2026-07-06' },
 ]
 
 export function getSim(id: string): SimEntry | undefined { return SIMS.find(s => s.id === id) }

@@ -1,0 +1,27 @@
+.tubeViz{display:flex;flex-direction:column;align-items:center;gap:8px}
+.tubeWhole{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:32px}
+.tubeWhole span{font-size:11px;color:var(--discovery-ink-3)}
+.tubeArrow{font-size:12px;color:var(--discovery-ink-3)}
+.tubeLayered{display:flex;flex-direction:column;width:140px;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.layerPlasma{background:#fef9c3;padding:8px 8px;font-size:10.5px;color:#854d0e;text-align:center}
+.layerBuffy{background:#e2e8f0;padding:4px 8px;font-size:9.5px;color:#475569;text-align:center}
+.layerRed{background:#991b1b;padding:14px 8px;font-size:10.5px;color:#fecaca;text-align:center}
+.komponenList{display:flex;flex-direction:column;gap:6px}
+.kBtn{display:flex;justify-content:space-between;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;transition:all .15s}
+.kBtn:hover{border-color:var(--discovery-primary)}
+.kOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.kSeen{opacity:.7}
+.kPersen{font-family:var(--mono);font-size:12px;color:var(--discovery-ink-3)}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.kDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;width:100%}
+.kdIcon{font-size:34px}
+.kdNama{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.kdFungsi{font-size:14.5px;color:var(--discovery-ink-2);line-height:1.55}
+.heartGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.hBtn{background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:13.5px;font-weight:600;padding:12px 10px;cursor:pointer;text-align:center;transition:all .15s}
+.hBtn:hover{border-color:var(--discovery-primary)}
+.hOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.hSeen{opacity:.7}
+.hDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;width:100%}
+.hdNama{font-size:19px;font-weight:700;color:var(--discovery-ink)}
+.hdFungsi{font-size:14.5px;color:var(--discovery-ink-2);line-height:1.55}

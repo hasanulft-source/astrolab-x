@@ -1,0 +1,13 @@
+.swallowViz{display:flex;align-items:center;gap:14px;justify-content:center}
+.swItem{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 14px;font-size:14px;font-weight:600;color:var(--discovery-ink-2);text-align:center;max-width:120px}
+.swVs{font-size:18px;font-weight:700;color:var(--discovery-ink-3)}
+.organFlow{display:flex;flex-direction:column;gap:6px}
+.oBtn{background:var(--surface);border:1px solid var(--line);border-radius:9px;color:var(--discovery-ink-2);font-family:var(--font-sans);font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;text-align:left;transition:all .15s}
+.oBtn:hover{border-color:var(--discovery-primary)}
+.oOn{background:#eaf4f3;border-color:var(--discovery-primary)}
+.oSeen{opacity:.7}
+.detailCenter{display:flex;align-items:center;justify-content:center}
+.oDetail{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;width:100%}
+.odIcon{font-size:38px}
+.odNama{font-size:20px;font-weight:700;color:var(--discovery-ink)}
+.odProses{font-size:14.5px;color:var(--discovery-ink-2);line-height:1.55}
